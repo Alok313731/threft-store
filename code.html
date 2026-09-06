@@ -1,0 +1,1677 @@
+<!DOCTYPE html><html lang="en" style=""><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;family=EB+Garamond:ital,wght@0,400..800;1,400..800&amp;family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "tertiary-container": "#6e695c", "inverse-on-surface": "#f6f0ec", "on-secondary-container": "#795c21", "secondary": "#765a1e", "surface": "#fef8f4", "on-error": "#ffffff", "secondary-fixed": "#ffdea4", "on-primary-container": "#ffe4dd", "on-tertiary-container": "#f1e9d9", "tertiary": "#565145", "on-tertiary-fixed-variant": "#4b463b", "on-surface": "#1d1b19", "primary-fixed": "#ffdbd1", "surface-bright": "#fef8f4", "surface-tint": "#9b442b", "on-surface-variant": "#55423d", "tertiary-fixed": "#eae2d2", "on-secondary-fixed": "#261900", "on-secondary": "#ffffff", "error": "#ba1a1a", "outline-variant": "#dcc1ba", "surface-container-highest": "#e7e1de", "secondary-fixed-dim": "#e7c17b", "on-error-container": "#93000a", "surface-container-high": "#ede7e3", "on-primary": "#ffffff", "on-primary-fixed-variant": "#7c2d16", "primary": "#8a371f", "primary-fixed-dim": "#ffb5a0", "surface-dim": "#ded9d5", "surface-variant": "#e7e1de", "error-container": "#ffdad6", "tertiary-fixed-dim": "#cdc6b6", "surface-container-low": "#f8f2ef", "inverse-primary": "#ffb5a0", "background": "#fef8f4", "surface-container": "#f3ede9", "on-tertiary-fixed": "#1f1b12", "on-secondary-fixed-variant": "#5c4306", "primary-container": "#a94e34", "secondary-container": "#ffd88f", "on-background": "#1d1b19", "inverse-surface": "#32302e", "on-primary-fixed": "#3b0900", "on-tertiary": "#ffffff", "outline": "#89726c", "surface-container-lowest": "#ffffff" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "space-sm": "0.75rem", "container-max": "1280px", "space-2xs": "0.25rem", "space-lg": "1.5rem", "space-xl": "2rem", "space-xs": "0.5rem", "space-md": "1rem", "gutter-mobile": "1rem", "gutter-tablet": "2rem", "space-2xl": "3rem", "gutter-desktop": "2.5rem", "space-3xl": "4.5rem" }, "fontFamily": { "label-tag": [ "Space Mono" ], "display-lg": [ "EB Garamond" ], "headline-md": [ "EB Garamond" ], "display-lg-mobile": [ "EB Garamond" ], "title-sm": [ "DM Sans" ], "headline-lg": [ "EB Garamond" ], "label-code": [ "Space Mono" ], "headline-lg-mobile": [ "EB Garamond" ], "body-lg": [ "DM Sans" ], "body-md": [ "DM Sans" ], "body-sm": [ "DM Sans" ] }, "fontSize": { "label-tag": [ "11px", { "lineHeight": "14px", "letterSpacing": "0.08em", "fontWeight": "700" } ], "display-lg": [ "56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "400" } ], "headline-md": [ "24px", { "lineHeight": "32px", "letterSpacing": "0em", "fontWeight": "500" } ], "display-lg-mobile": [ "38px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "400" } ], "title-sm": [ "16px", { "lineHeight": "24px", "letterSpacing": "0.01em", "fontWeight": "600" } ], "headline-lg": [ "36px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "400" } ], "label-code": [ "13px", { "lineHeight": "18px", "letterSpacing": "0.04em", "fontWeight": "400" } ], "headline-lg-mobile": [ "28px", { "lineHeight": "34px", "letterSpacing": "0em", "fontWeight": "400" } ], "body-lg": [ "16px", { "lineHeight": "26px", "letterSpacing": "0em", "fontWeight": "400" } ], "body-md": [ "14px", { "lineHeight": "22px", "letterSpacing": "0em", "fontWeight": "400" } ], "body-sm": [ "12px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "400" } ] } } } };</script></head><body class="bg-background font-body-md text-on-surface antialiased selection:bg-secondary-container selection:text-on-secondary-container"><header class="fixed top-0 left-0 w-full z-50 bg-surface/95 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-container-max mx-auto px-gutter-mobile md:px-gutter-tablet lg:px-gutter-desktop flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md shrink-0"><img alt="Thrift Gully Brand Mark" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1ULEiil4sYEfM4U-N_XS2E7EB4vgh3qOVwCpLQiTQYsImDQkE2Xt1MmeS829TXTUpsGVMM9qKyaE75O-7370f0FAxBDJwyjcy6Q79jQ2RmAFk80Yo-ZBAV4tkFWNUC6B2l_weqmUoyZPS4Pr8x6IF2jO1uM7xOBiy6arXgG8kG-biDkKUPfEe3utJMvjseBXI47hlCJuBh0A-7bdsiw_67zvYHgDJjS-8KNuBOQfnqxgaM0p9igxX1L6ybk"><a class="font-headline-md text-headline-md tracking-tight text-on-surface hover:text-primary transition-colors" data-path="shop-all" href="#">Thrift Gully</a><span class="hidden xl:inline-block font-label-tag text-label-tag uppercase text-secondary px-space-xs py-space-2xs bg-surface-container rounded-DEFAULT border-b border-dashed border-secondary/40">Kalyan Archive</span></div><nav class="hidden lg:flex items-center gap-space-lg" data-active-classes="bg-surface-container text-primary font-title-sm"><a aria-current="page" class="transition-colors py-space-xs px-space-sm rounded-DEFAULT bg-surface-container text-primary font-title-sm" data-path="shop-all" href="#">Shop All</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors py-space-xs px-space-sm rounded-DEFAULT" data-path="the-edit" href="#">The Edit</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors py-space-xs px-space-sm rounded-DEFAULT" data-path="archive-and-drops" href="#">Archive &amp; Drops</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors py-space-xs px-space-sm rounded-DEFAULT" data-path="journal" href="#">Journal</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors py-space-xs px-space-sm rounded-DEFAULT" data-path="our-kalyan-roots" href="#">Our Kalyan Roots</a></nav><div class="flex items-center gap-space-sm md:gap-space-md shrink-0"><button aria-label="Search Archive" class="p-space-xs text-on-surface-variant hover:text-primary transition-colors flex items-center gap-space-2xs" type="button"><span class="material-symbols-outlined text-[20px]">search</span><span class="hidden sm:inline font-label-code text-label-code uppercase tracking-wider text-on-surface-variant">Search</span></button><a class="relative p-space-xs text-on-surface-variant hover:text-primary transition-colors flex items-center" data-path="wishlist" href="#"><span class="material-symbols-outlined text-[20px]">favorite</span><span class="absolute -top-1 -right-1 font-label-tag text-[10px] w-4 h-4 rounded-full bg-surface-container-high text-primary flex items-center justify-center font-bold">3</span></a><button aria-label="Open Cart Drawer" class="relative p-space-xs text-on-surface-variant hover:text-primary transition-colors flex items-center gap-space-xs bg-surface-container-low px-space-sm rounded-DEFAULT hover:bg-surface-container" type="button"><span class="material-symbols-outlined text-[20px]">shopping_bag</span><span class="font-label-code text-label-code text-on-surface font-bold">[ 02 ]</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div><div class="w-full h-px border-b border-dashed border-outline-variant/60"></div></header><main class="w-full pt-20 bg-background"><div class="flex flex-col w-full text-on-surface">
+<!-- HERO SECTION -->
+<section class="relative w-full bg-surface-container-low overflow-hidden">
+<div class="max-w-container-max mx-auto px-gutter-mobile md:px-gutter-tablet lg:px-gutter-desktop py-space-2xl lg:py-space-3xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl lg:gap-space-2xl items-center">
+<!-- Left Editorial Column -->
+<div class="lg:col-span-6 flex flex-col space-y-space-md z-10">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-tag text-label-tag uppercase tracking-widest text-primary bg-primary-fixed/60 px-space-xs py-space-2xs rounded-DEFAULT">Found in Kalyan</span>
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span class="font-label-code text-label-code text-tertiary">Archive Batch 04</span>
+</div>
+<h1 class="font-display-lg text-display-lg-mobile lg:text-display-lg text-on-surface font-normal leading-[1.08] tracking-tight">
+            Vintage finds.<br>
+<span class="italic font-display-lg text-primary">Gully stories.</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl leading-relaxed">
+            A considered edit of handpicked Indian textiles, heirloom workwear, and authentic second-chapter garments. No endless scroll — just wearable history saved from oblivion and mended with care.
+          </p>
+<div class="pt-space-xs flex flex-wrap items-center gap-space-sm">
+<a class="inline-flex items-center justify-center gap-space-xs bg-primary text-on-primary font-title-sm text-title-sm px-space-lg py-space-sm rounded-DEFAULT shadow-md hover:bg-on-primary-fixed-variant transition-all duration-200" href="#catalog-section">
+<span class="">Explore The Current Drop</span>
+<span class="material-symbols-outlined text-[18px]">south</span>
+</a>
+<button class="inline-flex items-center justify-center gap-space-xs bg-surface-container font-label-code text-label-code uppercase tracking-wider text-on-surface px-space-md py-space-sm rounded-DEFAULT hover:bg-surface-container-high transition-colors" onclick="document.getElementById('journal-section').scrollIntoView({behavior: 'smooth'})" type="button">
+<span class="material-symbols-outlined text-[16px]">menu_book</span>
+<span class="">Read The Journal</span>
+</button>
+</div>
+<!-- Editorial Trust Badges -->
+<div class="pt-space-md grid grid-cols-3 gap-space-xs sm:gap-space-sm max-w-lg">
+<div class="p-space-xs bg-surface-container-highest/60 rounded-DEFAULT">
+<p class="font-label-code text-[10px] uppercase text-secondary font-bold">Provenance</p>
+<p class="font-body-sm text-body-sm font-semibold text-on-surface">100% Handpicked</p>
+</div>
+<div class="p-space-xs bg-surface-container-highest/60 rounded-DEFAULT">
+<p class="font-label-code text-[10px] uppercase text-secondary font-bold">Origin</p>
+<p class="font-body-sm text-body-sm font-semibold text-on-surface">Kalyan Atelier</p>
+</div>
+<div class="p-space-xs bg-surface-container-highest/60 rounded-DEFAULT">
+<p class="font-label-code text-[10px] uppercase text-secondary font-bold">Scarcity</p>
+<p class="font-body-sm text-body-sm font-semibold text-on-surface">Single Edition</p>
+</div>
+</div>
+</div>
+<!-- Right Framed Interior Visual -->
+<div class="lg:col-span-6 relative">
+<div class="relative w-full rounded-xl overflow-hidden bg-surface-container shadow-xl">
+<!-- Decorative Brass Corner Embellishments -->
+<div class="absolute top-3 left-3 w-6 h-6 bg-secondary-container/90 rounded-DEFAULT flex items-center justify-center z-20 shadow-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+</div>
+<div class="absolute top-3 right-3 w-6 h-6 bg-secondary-container/90 rounded-DEFAULT flex items-center justify-center z-20 shadow-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+</div>
+<!-- Shop Image -->
+<div class="relative w-full aspect-[4/3] overflow-hidden">
+<img alt="Clear curated vintage clothing boutique interior with framed gallery wall, vinyl records, hanging denim jackets, and heirloom garments" class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700 ease-out" src="https://lh3.googleusercontent.com/aida/AEtjO1VieQ1YrK4cFz0Gl-LMt4c9Lva4e1jR5LSIjALlr05RWYigmuNe8gfpZeojQ8C7x0Ml0PaXFUq1NAH2wWEfORV0LlDMWKyN3bZrGMI_67fb9WgbjuLgD4c7td-fwzD_kSLnhsfYc9OgVx-FzpudEJrtk5MsSXvqM6iIAWSK3g4kO88eW1-o5kEgaaRbXhIoRANAYS1tDaEzlyd32aHc3k_iI3t8ebUg9vJ1ZhHPdl2QKWxzmOBgme1T2daq">
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/80 via-inverse-surface/20 to-transparent"></div>
+</div>
+<!-- Overlaid Archive Stamp Card -->
+<div class="absolute bottom-4 left-4 right-4 p-space-sm bg-surface/95 backdrop-blur-md rounded-lg shadow-lg flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-primary animate-pulse"></span>
+<div>
+<p class="font-label-tag text-label-tag uppercase tracking-wider text-primary font-bold">Drop No. 04 / Winter-Spring</p>
+<p class="font-label-code text-[11px] text-on-surface-variant">Archived live from Kalyan Rambaug Studio</p>
+</div>
+</div>
+<div class="font-label-code text-label-code text-secondary font-bold bg-secondary-fixed/50 px-space-xs py-space-2xs rounded-DEFAULT">
+                19.2403° N, 73.1305° E
+              </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- TEXTILE STITCH RULE DIVIDER -->
+<div class="w-full py-space-sm bg-surface-container flex items-center justify-center overflow-hidden">
+<div class="flex items-center gap-space-md opacity-80 whitespace-nowrap select-none font-label-code text-[11px] uppercase tracking-[0.25em] text-secondary">
+<span class="">- - - - - - -</span>
+<span class="">◆</span>
+<span class="">Kalyan Heritage Textile Registry</span>
+<span class="">◆</span>
+<span class="">Hand-mended Indigo &amp; Khadi</span>
+<span class="">◆</span>
+<span class="">Zero Polyester Promise</span>
+<span class="">◆</span>
+<span class="">- - - - - - -</span>
+</div>
+</div>
+<!-- LIVE IN-BROWSER CATALOG ENGINE -->
+<section class="w-full max-w-container-max mx-auto px-gutter-mobile md:px-gutter-tablet lg:px-gutter-desktop py-space-2xl lg:py-space-3xl" id="catalog-section">
+<!-- Section Header & Filter Controls -->
+<div class="flex flex-col gap-space-lg mb-space-xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div>
+<span class="font-label-tag text-label-tag uppercase tracking-widest text-secondary font-bold">Curated Specimen Racks</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface">Browse Current Physical Inventory</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Every item is a single original piece. Instant live client-side filtering.</p>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="font-label-code text-label-code text-primary bg-primary-fixed/40 px-space-xs py-space-2xs rounded-DEFAULT" id="active-count">8 Pieces Displayed</span>
+<button class="text-on-surface-variant hover:text-primary font-label-code text-label-code underline text-xs" onclick="resetFilters()" type="button">Reset All</button>
+</div>
+</div>
+<!-- Controls Row: Search, Category Pills & Sort -->
+<div class="p-space-md bg-surface-container rounded-xl flex flex-col lg:flex-row items-stretch lg:items-center justify-between gap-space-md">
+<!-- Live Search Field -->
+<div class="relative flex-1 min-w-[240px]">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant text-[20px]">search</span>
+<input class="w-full bg-surface py-space-xs pl-10 pr-space-md font-body-md text-on-surface placeholder:text-outline rounded-DEFAULT border-b-2 border-on-surface focus:outline-none focus:border-primary transition-all text-sm" id="catalog-search" oninput="handleSearch(this.value)" placeholder="Search by weave, fabric, district, or era..." type="text">
+</div>
+<!-- Category Filter Pills -->
+<div class="flex flex-wrap items-center gap-space-2xs overflow-x-auto pb-1 lg:pb-0" id="category-pills">
+<button class="cat-pill active-pill px-space-sm py-space-2xs rounded-full font-label-code text-label-code transition-all bg-on-surface text-surface" data-cat="all" onclick="setCategory('all')" type="button">All Drops (8)</button>
+<button class="cat-pill px-space-sm py-space-2xs rounded-full font-label-code text-label-code transition-all bg-surface-container-high text-on-surface hover:bg-surface-container-highest" data-cat="khadi" onclick="setCategory('khadi')" type="button">Khadi &amp; Handloom (3)</button>
+<button class="cat-pill px-space-sm py-space-2xs rounded-full font-label-code text-label-code transition-all bg-surface-container-high text-on-surface hover:bg-surface-container-highest" data-cat="workwear" onclick="setCategory('workwear')" type="button">Workwear Jackets (2)</button>
+<button class="cat-pill px-space-sm py-space-2xs rounded-full font-label-code text-label-code transition-all bg-surface-container-high text-on-surface hover:bg-surface-container-highest" data-cat="silk" onclick="setCategory('silk')" type="button">Silk &amp; Brocade (2)</button>
+<button class="cat-pill px-space-sm py-space-2xs rounded-full font-label-code text-label-code transition-all bg-surface-container-high text-on-surface hover:bg-surface-container-highest" data-cat="leather" onclick="setCategory('leather')" type="button">Handmade Leather (1)</button>
+</div>
+<!-- Sort Select -->
+<div class="flex items-center gap-space-xs shrink-0">
+<label class="font-label-code text-label-code text-on-surface-variant text-xs" for="catalog-sort">SORT:</label>
+<select class="bg-surface font-body-sm text-body-sm text-on-surface px-space-sm py-space-xs rounded-DEFAULT border-b border-outline focus:outline-none" id="catalog-sort" onchange="handleSort(this.value)">
+<option value="featured">Featured Curations</option>
+<option value="price-asc">Price: Low to High</option>
+<option value="price-desc">Price: High to Low</option>
+<option value="era-oldest">Era: Oldest First</option>
+</select>
+</div>
+</div>
+</div>
+<!-- Product Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-lg" id="product-grid"><div class="group bg-surface-container rounded-xl p-space-sm flex flex-col justify-between shadow-sm hover:shadow-md transition-all duration-300">
+        <div>
+          <!-- Image Wrapper with Badges -->
+          <div class="relative aspect-[3/4] w-full rounded-lg overflow-hidden bg-surface-container-high mb-space-sm">
+            <img src="placeholder" data-alt="Authentic deep blue handspun indigo cotton Nehru waistcoat jacket laid flat on unbleached linen with brass buttons and hand-stitched hems" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500">
+            
+            <!-- Catalog Code Tag -->
+            <div class="absolute top-2 left-2 z-10">
+              <span class="font-label-code text-[10px] font-bold bg-secondary-fixed/90 text-on-secondary-fixed px-space-xs py-0.5 rounded-DEFAULT shadow-sm">
+                [ TG-04-01 ]
+              </span>
+            </div>
+
+            <!-- Wishlist Heart Button -->
+            <button type="button" onclick="toggleWishlist(1, event)" aria-label="Save Indigo Khadi Bandi Jacket" class="absolute top-2 right-2 z-10 w-8 h-8 rounded-full bg-surface/90 backdrop-blur-sm flex items-center justify-center text-on-surface hover:text-primary transition-colors shadow-sm">
+              <span class="material-symbols-outlined text-[18px]">favorite</span>
+            </button>
+
+            <!-- Condition Chip -->
+            <div class="absolute bottom-2 left-2 z-10">
+              <span class="font-label-tag text-[9px] uppercase tracking-wider bg-surface/95 text-on-surface px-space-xs py-0.5 rounded-DEFAULT shadow-sm">
+                Artisanal Mended
+              </span>
+            </div>
+
+            <!-- Quick View Hover Overlay -->
+            <button type="button" onclick="openInspectionModal(1)" class="absolute inset-x-2 bottom-2 py-space-xs bg-inverse-surface/85 backdrop-blur-sm text-inverse-on-surface font-label-code text-[11px] uppercase tracking-wider rounded-DEFAULT opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-1">
+              <span class="material-symbols-outlined text-[16px]">visibility</span>
+              <span class="">Inspect Garment</span>
+            </button>
+          </div>
+
+          <!-- Garment Metadata -->
+          <div class="space-y-1">
+            <div class="flex items-center justify-between text-[11px] font-label-code text-on-surface-variant">
+              <span class="">Kalyan Rail Bazaar</span>
+              <span class="text-tertiary">circa 1978</span>
+            </div>
+            <h3 class="font-headline-md text-[19px] leading-snug text-on-surface line-clamp-1 hover:text-primary cursor-pointer transition-colors" onclick="openInspectionModal(1)">
+              Indigo Khadi Bandi Jacket
+            </h3>
+            <p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1">Handspun Khadi Cotton, Raw Coconut Shell Buttons</p>
+          </div>
+        </div>
+
+        <!-- Price & Quick Add Footer -->
+        <div class="pt-space-sm mt-space-xs border-t border-dashed border-outline-variant/60 flex items-center justify-between">
+          <div>
+            <span class="font-label-code text-[16px] font-bold text-primary">₹1,850</span>
+            <span class="block font-label-code text-[10px] text-tertiary">40 inches</span>
+          </div>
+          <button type="button" onclick="quickAddToCart(1)" class="px-space-sm py-space-2xs bg-primary text-on-primary font-title-sm text-body-sm rounded-DEFAULT hover:bg-on-primary-fixed-variant transition-colors flex items-center gap-1 shadow-sm">
+            <span class="material-symbols-outlined text-[15px]">add</span>
+            <span class="">Add</span>
+          </button>
+        </div>
+      </div><div class="group bg-surface-container rounded-xl p-space-sm flex flex-col justify-between shadow-sm hover:shadow-md transition-all duration-300">
+        <div>
+          <!-- Image Wrapper with Badges -->
+          <div class="relative aspect-[3/4] w-full rounded-lg overflow-hidden bg-surface-container-high mb-space-sm">
+            <img src="placeholder" data-alt="Cream colored raw wild silk traditional Indian kurta with crossover neckline and tie closures shown on neutral parchment background" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500">
+            
+            <!-- Catalog Code Tag -->
+            <div class="absolute top-2 left-2 z-10">
+              <span class="font-label-code text-[10px] font-bold bg-secondary-fixed/90 text-on-secondary-fixed px-space-xs py-0.5 rounded-DEFAULT shadow-sm">
+                [ TG-04-02 ]
+              </span>
+            </div>
+
+            <!-- Wishlist Heart Button -->
+            <button type="button" onclick="toggleWishlist(2, event)" aria-label="Save Raw Silk Angarkha Kurta" class="absolute top-2 right-2 z-10 w-8 h-8 rounded-full bg-surface/90 backdrop-blur-sm flex items-center justify-center text-on-surface hover:text-primary transition-colors shadow-sm">
+              <span class="material-symbols-outlined text-[18px]">favorite</span>
+            </button>
+
+            <!-- Condition Chip -->
+            <div class="absolute bottom-2 left-2 z-10">
+              <span class="font-label-tag text-[9px] uppercase tracking-wider bg-surface/95 text-on-surface px-space-xs py-0.5 rounded-DEFAULT shadow-sm">
+                Pristine Vintage
+              </span>
+            </div>
+
+            <!-- Quick View Hover Overlay -->
+            <button type="button" onclick="openInspectionModal(2)" class="absolute inset-x-2 bottom-2 py-space-xs bg-inverse-surface/85 backdrop-blur-sm text-inverse-on-surface font-label-code text-[11px] uppercase tracking-wider rounded-DEFAULT opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-1">
+              <span class="material-symbols-outlined text-[16px]">visibility</span>
+              <span class="">Inspect Garment</span>
+            </button>
+          </div>
+
+          <!-- Garment Metadata -->
+          <div class="space-y-1">
+            <div class="flex items-center justify-between text-[11px] font-label-code text-on-surface-variant">
+              <span class="">Ahmedabad Mills</span>
+              <span class="text-tertiary">circa 1982</span>
+            </div>
+            <h3 class="font-headline-md text-[19px] leading-snug text-on-surface line-clamp-1 hover:text-primary cursor-pointer transition-colors" onclick="openInspectionModal(2)">
+              Raw Silk Angarkha Kurta
+            </h3>
+            <p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1">Unbleached Matka Raw Silk with Zari Slubs</p>
+          </div>
+        </div>
+
+        <!-- Price & Quick Add Footer -->
+        <div class="pt-space-sm mt-space-xs border-t border-dashed border-outline-variant/60 flex items-center justify-between">
+          <div>
+            <span class="font-label-code text-[16px] font-bold text-primary">₹2,450</span>
+            <span class="block font-label-code text-[10px] text-tertiary">42 inches</span>
+          </div>
+          <button type="button" onclick="quickAddToCart(2)" class="px-space-sm py-space-2xs bg-primary text-on-primary font-title-sm text-body-sm rounded-DEFAULT hover:bg-on-primary-fixed-variant transition-colors flex items-center gap-1 shadow-sm">
+            <span class="material-symbols-outlined text-[15px]">add</span>
+            <span class="">Add</span>
+          </button>
+        </div>
+      </div><div class="group bg-surface-container rounded-xl p-space-sm flex flex-col justify-between shadow-sm hover:shadow-md transition-all duration-300">
+        <div>
+          <!-- Image Wrapper with Badges -->
+          <div class="relative aspect-[3/4] w-full rounded-lg overflow-hidden bg-surface-container-high mb-space-sm">
+            <img src="placeholder" data-alt="Faded olive and charcoal vintage utilitarian chore jacket with visible running kantha hand repairs and vintage steel buttons" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500">
+            
+            <!-- Catalog Code Tag -->
+            <div class="absolute top-2 left-2 z-10">
+              <span class="font-label-code text-[10px] font-bold bg-secondary-fixed/90 text-on-secondary-fixed px-space-xs py-0.5 rounded-DEFAULT shadow-sm">
+                [ TG-04-03 ]
+              </span>
+            </div>
+
+            <!-- Wishlist Heart Button -->
+            <button type="button" onclick="toggleWishlist(3, event)" aria-label="Save Kantha Stitched Railway Chore Coat" class="absolute top-2 right-2 z-10 w-8 h-8 rounded-full bg-surface/90 backdrop-blur-sm flex items-center justify-center text-on-surface hover:text-primary transition-colors shadow-sm">
+              <span class="material-symbols-outlined text-[18px]">favorite</span>
+            </button>
+
+            <!-- Condition Chip -->
+            <div class="absolute bottom-2 left-2 z-10">
+              <span class="font-label-tag text-[9px] uppercase tracking-wider bg-surface/95 text-on-surface px-space-xs py-0.5 rounded-DEFAULT shadow-sm">
+                Hand-mended Patina
+              </span>
+            </div>
+
+            <!-- Quick View Hover Overlay -->
+            <button type="button" onclick="openInspectionModal(3)" class="absolute inset-x-2 bottom-2 py-space-xs bg-inverse-surface/85 backdrop-blur-sm text-inverse-on-surface font-label-code text-[11px] uppercase tracking-wider rounded-DEFAULT opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-1">
+              <span class="material-symbols-outlined text-[16px]">visibility</span>
+              <span class="">Inspect Garment</span>
+            </button>
+          </div>
+
+          <!-- Garment Metadata -->
+          <div class="space-y-1">
+            <div class="flex items-center justify-between text-[11px] font-label-code text-on-surface-variant">
+              <span class="">Found in Fort, Mumbai</span>
+              <span class="text-tertiary">circa 1972</span>
+            </div>
+            <h3 class="font-headline-md text-[19px] leading-snug text-on-surface line-clamp-1 hover:text-primary cursor-pointer transition-colors" onclick="openInspectionModal(3)">
+              Kantha Stitched Railway Chore Coat
+            </h3>
+            <p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1">Triple-layer Reclaimed Heavy Cotton Drill</p>
+          </div>
+        </div>
+
+        <!-- Price & Quick Add Footer -->
+        <div class="pt-space-sm mt-space-xs border-t border-dashed border-outline-variant/60 flex items-center justify-between">
+          <div>
+            <span class="font-label-code text-[16px] font-bold text-primary">₹2,900</span>
+            <span class="block font-label-code text-[10px] text-tertiary">43.5 inches</span>
+          </div>
+          <button type="button" onclick="quickAddToCart(3)" class="px-space-sm py-space-2xs bg-primary text-on-primary font-title-sm text-body-sm rounded-DEFAULT hover:bg-on-primary-fixed-variant transition-colors flex items-center gap-1 shadow-sm">
+            <span class="material-symbols-outlined text-[15px]">add</span>
+            <span class="">Add</span>
+          </button>
+        </div>
+      </div><div class="group bg-surface-container rounded-xl p-space-sm flex flex-col justify-between shadow-sm hover:shadow-md transition-all duration-300">
+        <div>
+          <!-- Image Wrapper with Badges -->
+          <div class="relative aspect-[3/4] w-full rounded-lg overflow-hidden bg-surface-container-high mb-space-sm">
+            <img src="placeholder" data-alt="Vintage Indian mud-resist block print kurta in aged faded navy blue and ivory cotton with mandarin collar on wooden hanger" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500">
+            
+            <!-- Catalog Code Tag -->
+            <div class="absolute top-2 left-2 z-10">
+              <span class="font-label-code text-[10px] font-bold bg-secondary-fixed/90 text-on-secondary-fixed px-space-xs py-0.5 rounded-DEFAULT shadow-sm">
+                [ TG-04-04 ]
+              </span>
+            </div>
+
+            <!-- Wishlist Heart Button -->
+            <button type="button" onclick="toggleWishlist(4, event)" aria-label="Save Dabu Block-Print Field Kurta" class="absolute top-2 right-2 z-10 w-8 h-8 rounded-full bg-surface/90 backdrop-blur-sm flex items-center justify-center text-on-surface hover:text-primary transition-colors shadow-sm">
+              <span class="material-symbols-outlined text-[18px]">favorite</span>
+            </button>
+
+            <!-- Condition Chip -->
+            <div class="absolute bottom-2 left-2 z-10">
+              <span class="font-label-tag text-[9px] uppercase tracking-wider bg-surface/95 text-on-surface px-space-xs py-0.5 rounded-DEFAULT shadow-sm">
+                Sun-Fade Patina
+              </span>
+            </div>
+
+            <!-- Quick View Hover Overlay -->
+            <button type="button" onclick="openInspectionModal(4)" class="absolute inset-x-2 bottom-2 py-space-xs bg-inverse-surface/85 backdrop-blur-sm text-inverse-on-surface font-label-code text-[11px] uppercase tracking-wider rounded-DEFAULT opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-1">
+              <span class="material-symbols-outlined text-[16px]">visibility</span>
+              <span class="">Inspect Garment</span>
+            </button>
+          </div>
+
+          <!-- Garment Metadata -->
+          <div class="space-y-1">
+            <div class="flex items-center justify-between text-[11px] font-label-code text-on-surface-variant">
+              <span class="">Kalyan Atelier Restored</span>
+              <span class="text-tertiary">circa 1989</span>
+            </div>
+            <h3 class="font-headline-md text-[19px] leading-snug text-on-surface line-clamp-1 hover:text-primary cursor-pointer transition-colors" onclick="openInspectionModal(4)">
+              Dabu Block-Print Field Kurta
+            </h3>
+            <p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1">Handloom Cambric Cotton, Mud-resist Vegetable Indigo</p>
+          </div>
+        </div>
+
+        <!-- Price & Quick Add Footer -->
+        <div class="pt-space-sm mt-space-xs border-t border-dashed border-outline-variant/60 flex items-center justify-between">
+          <div>
+            <span class="font-label-code text-[16px] font-bold text-primary">₹1,350</span>
+            <span class="block font-label-code text-[10px] text-tertiary">39 inches</span>
+          </div>
+          <button type="button" onclick="quickAddToCart(4)" class="px-space-sm py-space-2xs bg-primary text-on-primary font-title-sm text-body-sm rounded-DEFAULT hover:bg-on-primary-fixed-variant transition-colors flex items-center gap-1 shadow-sm">
+            <span class="material-symbols-outlined text-[15px]">add</span>
+            <span class="">Add</span>
+          </button>
+        </div>
+      </div><div class="group bg-surface-container rounded-xl p-space-sm flex flex-col justify-between shadow-sm hover:shadow-md transition-all duration-300">
+        <div>
+          <!-- Image Wrapper with Badges -->
+          <div class="relative aspect-[3/4] w-full rounded-lg overflow-hidden bg-surface-container-high mb-space-sm">
+            <img src="placeholder" data-alt="Vintage distressed brown cognac leather messenger bag with tarnished brass buckles resting on a rustic wooden bench" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500">
+            
+            <!-- Catalog Code Tag -->
+            <div class="absolute top-2 left-2 z-10">
+              <span class="font-label-code text-[10px] font-bold bg-secondary-fixed/90 text-on-secondary-fixed px-space-xs py-0.5 rounded-DEFAULT shadow-sm">
+                [ TG-04-05 ]
+              </span>
+            </div>
+
+            <!-- Wishlist Heart Button -->
+            <button type="button" onclick="toggleWishlist(5, event)" aria-label="Save Handmade Saddle Leather Satchel" class="absolute top-2 right-2 z-10 w-8 h-8 rounded-full bg-surface/90 backdrop-blur-sm flex items-center justify-center text-on-surface hover:text-primary transition-colors shadow-sm">
+              <span class="material-symbols-outlined text-[18px]">favorite</span>
+            </button>
+
+            <!-- Condition Chip -->
+            <div class="absolute bottom-2 left-2 z-10">
+              <span class="font-label-tag text-[9px] uppercase tracking-wider bg-surface/95 text-on-surface px-space-xs py-0.5 rounded-DEFAULT shadow-sm">
+                Restored Brass Hardware
+              </span>
+            </div>
+
+            <!-- Quick View Hover Overlay -->
+            <button type="button" onclick="openInspectionModal(5)" class="absolute inset-x-2 bottom-2 py-space-xs bg-inverse-surface/85 backdrop-blur-sm text-inverse-on-surface font-label-code text-[11px] uppercase tracking-wider rounded-DEFAULT opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-1">
+              <span class="material-symbols-outlined text-[16px]">visibility</span>
+              <span class="">Inspect Garment</span>
+            </button>
+          </div>
+
+          <!-- Garment Metadata -->
+          <div class="space-y-1">
+            <div class="flex items-center justify-between text-[11px] font-label-code text-on-surface-variant">
+              <span class="">Dharavi Guilds</span>
+              <span class="text-tertiary">circa 1980</span>
+            </div>
+            <h3 class="font-headline-md text-[19px] leading-snug text-on-surface line-clamp-1 hover:text-primary cursor-pointer transition-colors" onclick="openInspectionModal(5)">
+              Handmade Saddle Leather Satchel
+            </h3>
+            <p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1">Vegetable-Tanned Full-Grain Leather, Solid Brass</p>
+          </div>
+        </div>
+
+        <!-- Price & Quick Add Footer -->
+        <div class="pt-space-sm mt-space-xs border-t border-dashed border-outline-variant/60 flex items-center justify-between">
+          <div>
+            <span class="font-label-code text-[16px] font-bold text-primary">₹3,200</span>
+            <span class="block font-label-code text-[10px] text-tertiary">14 x 10 inches</span>
+          </div>
+          <button type="button" onclick="quickAddToCart(5)" class="px-space-sm py-space-2xs bg-primary text-on-primary font-title-sm text-body-sm rounded-DEFAULT hover:bg-on-primary-fixed-variant transition-colors flex items-center gap-1 shadow-sm">
+            <span class="material-symbols-outlined text-[15px]">add</span>
+            <span class="">Add</span>
+          </button>
+        </div>
+      </div><div class="group bg-surface-container rounded-xl p-space-sm flex flex-col justify-between shadow-sm hover:shadow-md transition-all duration-300">
+        <div>
+          <!-- Image Wrapper with Badges -->
+          <div class="relative aspect-[3/4] w-full rounded-lg overflow-hidden bg-surface-container-high mb-space-sm">
+            <img src="placeholder" data-alt="Delicate sheer vintage Chanderi silk scarf in antique golden ochre and beige tones with hand-loomed metallic zari borders" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500">
+            
+            <!-- Catalog Code Tag -->
+            <div class="absolute top-2 left-2 z-10">
+              <span class="font-label-code text-[10px] font-bold bg-secondary-fixed/90 text-on-secondary-fixed px-space-xs py-0.5 rounded-DEFAULT shadow-sm">
+                [ TG-04-06 ]
+              </span>
+            </div>
+
+            <!-- Wishlist Heart Button -->
+            <button type="button" onclick="toggleWishlist(6, event)" aria-label="Save Chanderi Gold Motif Tissue Dupatta" class="absolute top-2 right-2 z-10 w-8 h-8 rounded-full bg-surface/90 backdrop-blur-sm flex items-center justify-center text-on-surface hover:text-primary transition-colors shadow-sm">
+              <span class="material-symbols-outlined text-[18px]">favorite</span>
+            </button>
+
+            <!-- Condition Chip -->
+            <div class="absolute bottom-2 left-2 z-10">
+              <span class="font-label-tag text-[9px] uppercase tracking-wider bg-surface/95 text-on-surface px-space-xs py-0.5 rounded-DEFAULT shadow-sm">
+                Pristine Vintage
+              </span>
+            </div>
+
+            <!-- Quick View Hover Overlay -->
+            <button type="button" onclick="openInspectionModal(6)" class="absolute inset-x-2 bottom-2 py-space-xs bg-inverse-surface/85 backdrop-blur-sm text-inverse-on-surface font-label-code text-[11px] uppercase tracking-wider rounded-DEFAULT opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-1">
+              <span class="material-symbols-outlined text-[16px]">visibility</span>
+              <span class="">Inspect Garment</span>
+            </button>
+          </div>
+
+          <!-- Garment Metadata -->
+          <div class="space-y-1">
+            <div class="flex items-center justify-between text-[11px] font-label-code text-on-surface-variant">
+              <span class="">Madhya Pradesh Weave</span>
+              <span class="text-tertiary">circa 1975</span>
+            </div>
+            <h3 class="font-headline-md text-[19px] leading-snug text-on-surface line-clamp-1 hover:text-primary cursor-pointer transition-colors" onclick="openInspectionModal(6)">
+              Chanderi Gold Motif Tissue Dupatta
+            </h3>
+            <p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1">Pure Silk-Cotton Chanderi with Hand-Zari Buttis</p>
+          </div>
+        </div>
+
+        <!-- Price & Quick Add Footer -->
+        <div class="pt-space-sm mt-space-xs border-t border-dashed border-outline-variant/60 flex items-center justify-between">
+          <div>
+            <span class="font-label-code text-[16px] font-bold text-primary">₹1,650</span>
+            <span class="block font-label-code text-[10px] text-tertiary">2.4 Metres</span>
+          </div>
+          <button type="button" onclick="quickAddToCart(6)" class="px-space-sm py-space-2xs bg-primary text-on-primary font-title-sm text-body-sm rounded-DEFAULT hover:bg-on-primary-fixed-variant transition-colors flex items-center gap-1 shadow-sm">
+            <span class="material-symbols-outlined text-[15px]">add</span>
+            <span class="">Add</span>
+          </button>
+        </div>
+      </div><div class="group bg-surface-container rounded-xl p-space-sm flex flex-col justify-between shadow-sm hover:shadow-md transition-all duration-300">
+        <div>
+          <!-- Image Wrapper with Badges -->
+          <div class="relative aspect-[3/4] w-full rounded-lg overflow-hidden bg-surface-container-high mb-space-sm">
+            <img src="placeholder" data-alt="Rust terracotta red handspun khadi linen tunic shirt with natural wooden buttons lying on aged wooden surface" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500">
+            
+            <!-- Catalog Code Tag -->
+            <div class="absolute top-2 left-2 z-10">
+              <span class="font-label-code text-[10px] font-bold bg-secondary-fixed/90 text-on-secondary-fixed px-space-xs py-0.5 rounded-DEFAULT shadow-sm">
+                [ TG-04-07 ]
+              </span>
+            </div>
+
+            <!-- Wishlist Heart Button -->
+            <button type="button" onclick="toggleWishlist(7, event)" aria-label="Save Red Mud-Washed Khadi Popover" class="absolute top-2 right-2 z-10 w-8 h-8 rounded-full bg-surface/90 backdrop-blur-sm flex items-center justify-center text-on-surface hover:text-primary transition-colors shadow-sm">
+              <span class="material-symbols-outlined text-[18px]">favorite</span>
+            </button>
+
+            <!-- Condition Chip -->
+            <div class="absolute bottom-2 left-2 z-10">
+              <span class="font-label-tag text-[9px] uppercase tracking-wider bg-surface/95 text-on-surface px-space-xs py-0.5 rounded-DEFAULT shadow-sm">
+                Distressed Khadi
+              </span>
+            </div>
+
+            <!-- Quick View Hover Overlay -->
+            <button type="button" onclick="openInspectionModal(7)" class="absolute inset-x-2 bottom-2 py-space-xs bg-inverse-surface/85 backdrop-blur-sm text-inverse-on-surface font-label-code text-[11px] uppercase tracking-wider rounded-DEFAULT opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-1">
+              <span class="material-symbols-outlined text-[16px]">visibility</span>
+              <span class="">Inspect Garment</span>
+            </button>
+          </div>
+
+          <!-- Garment Metadata -->
+          <div class="space-y-1">
+            <div class="flex items-center justify-between text-[11px] font-label-code text-on-surface-variant">
+              <span class="">Kalyan Rambaug Sourced</span>
+              <span class="text-tertiary">circa 1986</span>
+            </div>
+            <h3 class="font-headline-md text-[19px] leading-snug text-on-surface line-clamp-1 hover:text-primary cursor-pointer transition-colors" onclick="openInspectionModal(7)">
+              Red Mud-Washed Khadi Popover
+            </h3>
+            <p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1">Coarse 120-GSM Hand-spun Maharashtra Khadi</p>
+          </div>
+        </div>
+
+        <!-- Price & Quick Add Footer -->
+        <div class="pt-space-sm mt-space-xs border-t border-dashed border-outline-variant/60 flex items-center justify-between">
+          <div>
+            <span class="font-label-code text-[16px] font-bold text-primary">₹1,450</span>
+            <span class="block font-label-code text-[10px] text-tertiary">41 inches</span>
+          </div>
+          <button type="button" onclick="quickAddToCart(7)" class="px-space-sm py-space-2xs bg-primary text-on-primary font-title-sm text-body-sm rounded-DEFAULT hover:bg-on-primary-fixed-variant transition-colors flex items-center gap-1 shadow-sm">
+            <span class="material-symbols-outlined text-[15px]">add</span>
+            <span class="">Add</span>
+          </button>
+        </div>
+      </div><div class="group bg-surface-container rounded-xl p-space-sm flex flex-col justify-between shadow-sm hover:shadow-md transition-all duration-300">
+        <div>
+          <!-- Image Wrapper with Badges -->
+          <div class="relative aspect-[3/4] w-full rounded-lg overflow-hidden bg-surface-container-high mb-space-sm">
+            <img src="placeholder" data-alt="Boxy short-sleeved vintage shirt in rich madder red and midnight black Ajrakh star print on artisan linen background" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500">
+            
+            <!-- Catalog Code Tag -->
+            <div class="absolute top-2 left-2 z-10">
+              <span class="font-label-code text-[10px] font-bold bg-secondary-fixed/90 text-on-secondary-fixed px-space-xs py-0.5 rounded-DEFAULT shadow-sm">
+                [ TG-04-08 ]
+              </span>
+            </div>
+
+            <!-- Wishlist Heart Button -->
+            <button type="button" onclick="toggleWishlist(8, event)" aria-label="Save Ajrakh Geometric Boxy Shirt" class="absolute top-2 right-2 z-10 w-8 h-8 rounded-full bg-surface/90 backdrop-blur-sm flex items-center justify-center text-on-surface hover:text-primary transition-colors shadow-sm">
+              <span class="material-symbols-outlined text-[18px]">favorite</span>
+            </button>
+
+            <!-- Condition Chip -->
+            <div class="absolute bottom-2 left-2 z-10">
+              <span class="font-label-tag text-[9px] uppercase tracking-wider bg-surface/95 text-on-surface px-space-xs py-0.5 rounded-DEFAULT shadow-sm">
+                Mint Vintage
+              </span>
+            </div>
+
+            <!-- Quick View Hover Overlay -->
+            <button type="button" onclick="openInspectionModal(8)" class="absolute inset-x-2 bottom-2 py-space-xs bg-inverse-surface/85 backdrop-blur-sm text-inverse-on-surface font-label-code text-[11px] uppercase tracking-wider rounded-DEFAULT opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-1">
+              <span class="material-symbols-outlined text-[16px]">visibility</span>
+              <span class="">Inspect Garment</span>
+            </button>
+          </div>
+
+          <!-- Garment Metadata -->
+          <div class="space-y-1">
+            <div class="flex items-center justify-between text-[11px] font-label-code text-on-surface-variant">
+              <span class="">Kutch via Kalyan Trunk</span>
+              <span class="text-tertiary">circa 1991</span>
+            </div>
+            <h3 class="font-headline-md text-[19px] leading-snug text-on-surface line-clamp-1 hover:text-primary cursor-pointer transition-colors" onclick="openInspectionModal(8)">
+              Ajrakh Geometric Boxy Shirt
+            </h3>
+            <p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1">Natural Madder &amp; Harda Dyed Handloom Cotton</p>
+          </div>
+        </div>
+
+        <!-- Price & Quick Add Footer -->
+        <div class="pt-space-sm mt-space-xs border-t border-dashed border-outline-variant/60 flex items-center justify-between">
+          <div>
+            <span class="font-label-code text-[16px] font-bold text-primary">₹1,750</span>
+            <span class="block font-label-code text-[10px] text-tertiary">44 inches (Relaxed)</span>
+          </div>
+          <button type="button" onclick="quickAddToCart(8)" class="px-space-sm py-space-2xs bg-primary text-on-primary font-title-sm text-body-sm rounded-DEFAULT hover:bg-on-primary-fixed-variant transition-colors flex items-center gap-1 shadow-sm">
+            <span class="material-symbols-outlined text-[15px]">add</span>
+            <span class="">Add</span>
+          </button>
+        </div>
+      </div></div>
+<!-- Empty State -->
+<div class="hidden py-space-3xl text-center flex flex-col items-center justify-center" id="empty-state">
+<span class="material-symbols-outlined text-[48px] text-outline">search_off</span>
+<p class="font-headline-md text-headline-md text-on-surface mt-space-sm">No archive specimens match your query</p>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-sm mt-space-xs">Try searching for broader textile types like "Khadi", "Indigo", "Linen", or reset all active filters.</p>
+<button class="mt-space-md px-space-md py-space-xs bg-primary text-on-primary font-label-tag text-label-tag uppercase rounded-DEFAULT" onclick="resetFilters()" type="button">Clear Filters</button>
+</div>
+</section>
+<!-- "WHY THRIFT GULLY - THE THREE THREADS" BRAND PHILOSOPHY -->
+<section class="w-full bg-surface-container py-space-3xl">
+<div class="max-w-container-max mx-auto px-gutter-mobile md:px-gutter-tablet lg:px-gutter-desktop">
+<div class="text-center max-w-2xl mx-auto mb-space-2xl">
+<span class="font-label-tag text-label-tag uppercase tracking-widest text-primary font-bold">The Guiding Philosophy</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface mt-space-2xs">The Three Threads of Kalyan</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">We resist the churn of fast disposable fashion. Every garment resting on our cedar racks adheres to three non-negotiable principles.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- Thread 1 -->
+<div class="bg-surface p-space-xl rounded-xl flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
+<div>
+<div class="w-10 h-10 rounded-full bg-primary-fixed flex items-center justify-center font-label-code text-label-code font-bold text-on-primary-fixed mb-space-md">
+              01
+            </div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-space-xs">The Slow Edit</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              We never dump bulk bales. Only 15 to 20 garments are vetted and hand-numbered in our studio at any given cycle. If it doesn't possess structural dignity and pure natural yarns, it never enters the catalog.
+            </p>
+</div>
+<div class="pt-space-md">
+<span class="font-label-tag text-[10px] uppercase tracking-wider text-secondary">Zero Mass-Production</span>
+</div>
+</div>
+<!-- Thread 2 -->
+<div class="bg-surface p-space-xl rounded-xl flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
+<div>
+<div class="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center font-label-code text-label-code font-bold text-on-secondary-fixed mb-space-md">
+              02
+            </div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-space-xs">Living Texture</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              We celebrate natural slubs, vegetable sun-bleaching, and slow kantha mends. True vintage possesses a tactile memory that synthetic, chemically treated fast-retail fabrics can never duplicate.
+            </p>
+</div>
+<div class="pt-space-md">
+<span class="font-label-tag text-[10px] uppercase tracking-wider text-secondary">100% Hand-inspected Weaves</span>
+</div>
+</div>
+<!-- Thread 3 -->
+<div class="bg-surface p-space-xl rounded-xl flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
+<div>
+<div class="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center font-label-code text-label-code font-bold text-tertiary mb-space-md">
+              03
+            </div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-space-xs">Wear It Forward</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              These are not museum relics trapped behind glass. Every jacket, kurta, and bandi is washed, stabilized, and tailored to integrate effortlessly into modern daily dressing across Bombay, Pune, and beyond.
+            </p>
+</div>
+<div class="pt-space-md">
+<span class="font-label-tag text-[10px] uppercase tracking-wider text-secondary">Second Chapter Living</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- THE GULLY JOURNAL (INTEGRATED EDITORIAL READING EXPERIENCE) -->
+<section class="w-full max-w-container-max mx-auto px-gutter-mobile md:px-gutter-tablet lg:px-gutter-desktop py-space-3xl" id="journal-section">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-2xl">
+<div>
+<span class="font-label-tag text-label-tag uppercase tracking-widest text-primary font-bold">The Archive Journal</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface">Woven Notes &amp; Field Guides</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Practical guides to vintage garment care and dispatches from the Kalyan weaving clusters.</p>
+</div>
+<span class="font-label-code text-label-code text-tertiary">All dispatches written by Studio Curators</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-xl">
+<!-- Article 1 -->
+<article class="bg-surface-container-low rounded-xl overflow-hidden flex flex-col justify-between shadow-sm hover:shadow-md transition-all">
+<div>
+<div class="aspect-[16/10] overflow-hidden bg-surface-container relative">
+<img class="w-full h-full object-cover" data-alt="Close-up macro of authentic coarse 1970s Maharashtrian khadi fabric showing uneven hand-spun warp and weft threads, earthy raw cotton cream texture, warm studio lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCLW163mmJ6kOUOcF5EAFzsN6hZSnvbIZpCMq95p_XsUbkzkkexU2dTDjl_y0tF_rzL47HedR_R5o93dyq8QD--RVR86LV5rAAm9eMxlRLSQjNzLmOqmAYEtcV0uPFiUgLaxJGyDdCNyNs5zRE77yrPY34WOgl153opMD0XcU0_Xjz0cxz7Ky-xFowrZnrP9JK7KfjZvEFTYfHuHBjivq4K9uznznxoiiVv73pPXLGrL54j8UIYiHdGMw">
+<span class="absolute bottom-2 left-2 font-label-code text-[10px] bg-inverse-surface/80 text-inverse-on-surface px-space-xs py-space-2xs rounded-DEFAULT">Textile History</span>
+</div>
+<div class="p-space-lg">
+<span class="font-label-code text-label-code text-secondary">Dispatch 012 • 6 min read</span>
+<h3 class="font-headline-md text-headline-md text-on-surface mt-space-2xs mb-space-xs">Khadi That Remembers: Tracing 1970s Mills in Maharashtra</h3>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-3">
+              Before synthetic blends flooded the industrial corridors of Thane and Dombivli, village cooperatives spun cotton that breathed with the monsoon winds. We trace how we authenticate genuine vintage khadi hand-weaves.
+            </p>
+</div>
+</div>
+<div class="p-space-lg pt-0">
+<button class="inline-flex items-center gap-space-2xs font-title-sm text-title-sm text-primary hover:text-on-primary-fixed-variant transition-colors" onclick="openJournalModal(0)" type="button">
+<span class="">Read Full Dispatch</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</article>
+<!-- Article 2 -->
+<article class="bg-surface-container-low rounded-xl overflow-hidden flex flex-col justify-between shadow-sm hover:shadow-md transition-all">
+<div>
+<div class="aspect-[16/10] overflow-hidden bg-surface-container relative">
+<img class="w-full h-full object-cover" data-alt="Traditional Indian brass basin with cold water and natural soapnuts used for gentle handwashing of natural fermented indigo vintage kurta with deep royal blue hues" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAuzoDmXdeYv68SDQKhTH1WaxQlgbsNcxy_YaSahxYExnBQww7xZOfKsvB0et3-Sq-P2-t6Z5q1-cBH3Ogy7BWqKlK6YNb4bpt_C5vWVgNGd1jSisAUPiseQ65p0-sW0_6_Pg2Zijlf-4dYAuHc2gjEozGVcrRA6nI4-yoH84a9vnE_CAWhpSq5Vw9eZ58hko5IuBh-aGRcZ81lTrOhp5gper1e8npMg6J7oWE3Vf44hufx2rOUF6XxAw">
+<span class="absolute bottom-2 left-2 font-label-code text-[10px] bg-inverse-surface/80 text-inverse-on-surface px-space-xs py-space-2xs rounded-DEFAULT">Garment Care</span>
+</div>
+<div class="p-space-lg">
+<span class="font-label-code text-label-code text-secondary">Dispatch 011 • 4 min read</span>
+<h3 class="font-headline-md text-headline-md text-on-surface mt-space-2xs mb-space-xs">How to Wash &amp; Care for Vintage Natural Indigo</h3>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-3">
+              Plant-extracted indigo dyes are alive — they respond to sunshine, natural reetha soapnuts, and cold mountain water. Learn our gentle three-step cycle to deepen patina without bleeding fibers.
+            </p>
+</div>
+</div>
+<div class="p-space-lg pt-0">
+<button class="inline-flex items-center gap-space-2xs font-title-sm text-title-sm text-primary hover:text-on-primary-fixed-variant transition-colors" onclick="openJournalModal(1)" type="button">
+<span class="">Read Full Dispatch</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</article>
+<!-- Article 3 -->
+<article class="bg-surface-container-low rounded-xl overflow-hidden flex flex-col justify-between shadow-sm hover:shadow-md transition-all">
+<div>
+<div class="aspect-[16/10] overflow-hidden bg-surface-container relative">
+<img class="w-full h-full object-cover" data-alt="Atmospheric early morning photograph of Kalyan flea market with old wooden crates, second-hand handloom textiles, warm sunrise dust particles, authentic Maharashtrian street vibe" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7dDAYJM0sn2idQHHXYU6dm0TQQ2GZ_vwJirtpft_hiuXDVieR-PHhh8wkSxFpPCQgGobU6PsNaHEdqYJAsrBginXZWFlLv0Drp9ZN_TygE4FeGxIRlBazop3IQiBdfT_72Qc0mTQ45qYFmX2TQiVx7OBZt9Mgy7J4vrj-Du3jGS3HW9JEY8EYvTm2_qhaZ0qem3-OB4ik2klUiEli5cF7JH4vB7omA9p8GbxH3GZi17K19AQL8VSLyQ">
+<span class="absolute bottom-2 left-2 font-label-code text-[10px] bg-inverse-surface/80 text-inverse-on-surface px-space-xs py-space-2xs rounded-DEFAULT">Studio Fieldwork</span>
+</div>
+<div class="p-space-lg">
+<span class="font-label-code text-label-code text-secondary">Dispatch 010 • 5 min read</span>
+<h3 class="font-headline-md text-headline-md text-on-surface mt-space-2xs mb-space-xs">Notes From Kalyan: The 5 AM Sunday Fabric Haul</h3>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-3">
+              Stepping through the railway siding stalls near Kalyan junction at dawn. An unvarnished recount of salvaging an intact 1968 hand-block printed dabu angarkha from a family trunk.
+            </p>
+</div>
+</div>
+<div class="p-space-lg pt-0">
+<button class="inline-flex items-center gap-space-2xs font-title-sm text-title-sm text-primary hover:text-on-primary-fixed-variant transition-colors" onclick="openJournalModal(2)" type="button">
+<span class="">Read Full Dispatch</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</article>
+</div>
+</section>
+<!-- VISIT THE KALYAN STUDIO & DISPATCH REGISTRY -->
+<section class="w-full bg-surface-container-high py-space-3xl">
+<div class="max-w-container-max mx-auto px-gutter-mobile md:px-gutter-tablet lg:px-gutter-desktop">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-2xl">
+<!-- Physical Atelier Info -->
+<div class="lg:col-span-6 flex flex-col justify-between bg-surface p-space-xl rounded-xl shadow-sm">
+<div>
+<div class="flex items-center gap-space-xs mb-space-sm">
+<span class="font-label-tag text-label-tag uppercase tracking-widest text-primary bg-primary-fixed/50 px-space-xs py-space-2xs rounded-DEFAULT">Open By Appointment</span>
+<span class="font-label-code text-label-code text-secondary font-bold">Kalyan West</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface">The Rambaug Studio &amp; Archive</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs max-w-md">
+              Touch the textiles before choosing. Our physical catalog room hosts tea, garment alterations, and private archive rack walkthroughs.
+            </p>
+<div class="mt-space-lg space-y-space-sm">
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[20px] mt-0.5">location_on</span>
+<div>
+<p class="font-title-sm text-title-sm text-on-surface">Studio 04, Rambaug Lane 5</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Near Old Fish Market, Kalyan West, Maharashtra 421301</p>
+<p class="font-label-code text-[11px] text-tertiary mt-0.5">Coordinates: 19.2403° N, 73.1305° E (6 min walk from Kalyan Stn)</p>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[20px] mt-0.5">schedule</span>
+<div>
+<p class="font-title-sm text-title-sm text-on-surface">Visiting Hours</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Wednesday – Sunday: 11:30 AM – 7:30 PM</p>
+<p class="font-body-sm text-body-sm text-secondary font-medium">Monday &amp; Tuesday: Closed for field sourcing</p>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-space-lg pt-space-md border-t border-dashed border-outline-variant/60 flex items-center justify-between">
+<span class="font-label-code text-label-code text-on-surface-variant">Private Appointments:</span>
+<a class="font-label-code text-label-code font-bold text-primary hover:underline" href="tel:+919820012345">+91 98200 XXXXX</a>
+</div>
+</div>
+<!-- Working Client-Side Newsletter / Dispatch Form -->
+<div class="lg:col-span-6 flex flex-col justify-center bg-surface p-space-xl rounded-xl shadow-sm">
+<span class="font-label-tag text-label-tag uppercase tracking-widest text-secondary font-bold">The Saturday Gazette</span>
+<h3 class="font-headline-md text-headline-md text-on-surface mt-space-2xs">Get Drop Access 3 Hours Early</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+            Because our garments are one-of-a-kind singles, sizes go within 20 minutes of drop releases. Gazette members get the direct unlock passcode every second Friday at 5 PM IST.
+          </p>
+<form class="mt-space-lg flex flex-col gap-space-sm" id="newsletter-form" onsubmit="handleNewsletter(event)">
+<div class="flex flex-col gap-space-2xs">
+<label class="font-label-code text-label-code uppercase text-on-surface" for="gazette-email">Your Correspondence Address</label>
+<input class="w-full bg-surface-container-low px-space-md py-space-sm font-body-md text-on-surface rounded-DEFAULT border-b-2 border-on-surface focus:outline-none focus:border-primary transition-all" id="gazette-email" placeholder="patina.collector@archive.in" required="" type="email">
+</div>
+<div class="flex items-center gap-space-xs mt-space-2xs">
+<input class="rounded-DEFAULT accent-primary cursor-pointer" id="whatsapp-pref" type="checkbox">
+<label class="font-body-sm text-body-sm text-on-surface-variant cursor-pointer" for="whatsapp-pref">Also send instant SMS/WhatsApp alerts for drop drops</label>
+</div>
+<button class="mt-space-sm w-full bg-on-surface text-surface hover:bg-primary transition-colors py-space-sm rounded-DEFAULT font-title-sm text-title-sm uppercase tracking-wider" id="gazette-submit" type="submit">
+              Enlist in Private Register
+            </button>
+<div class="hidden p-space-sm bg-secondary-fixed/50 text-on-secondary-fixed font-label-code text-label-code rounded-DEFAULT text-center mt-space-xs" id="newsletter-status"></div>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- QUICK INSPECTION MODAL (POPUP FOR PRODUCT SPECIMEN) -->
+<div class="fixed inset-0 z-50 bg-inverse-surface/60 backdrop-blur-sm hidden items-center justify-center p-space-sm sm:p-space-md" id="inspection-modal">
+<div class="bg-surface max-w-2xl w-full rounded-xl overflow-hidden shadow-2xl flex flex-col max-h-[90vh]">
+<!-- Modal Header -->
+<div class="p-space-md bg-surface-container flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-code text-label-code text-primary bg-primary-fixed/60 px-space-xs py-space-2xs rounded-DEFAULT" id="modal-cat-badge">TG-04-01</span>
+<span class="font-label-code text-label-code text-on-surface-variant" id="modal-provenance">Kalyan Weave</span>
+</div>
+<button aria-label="Close Inspection Modal" class="p-space-2xs hover:text-primary transition-colors" onclick="closeInspectionModal()" type="button">
+<span class="material-symbols-outlined text-[24px]">close</span>
+</button>
+</div>
+<!-- Modal Body -->
+<div class="p-space-lg overflow-y-auto space-y-space-md">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div class="aspect-[3/4] bg-surface-container rounded-lg overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Vintage garment detail on wooden mannequin with warm natural daylight" id="modal-image" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBleJ_J91z-ToAayInJhXQzXH2sm1mN0qmdHGi4xW7rVVbb0Ge3k1Luhs7SqcV5JwMrk3IH1a3CvC9Jp0m3WZhJlnIZA2F2Kg4pmVyH7naFN4Gj5QXniLQGxl9xxddlejFy6ry8VQUk0PYAidlw_942KS5AZAUdVioCwcAAOMUkeZJTKAZPgVnfJmDj_9O7wDr8KBiaY3bDwiFL--WjU6Ktc2NRV5O_ldatzG44cvKVMb3HcVs9alLggQ">
+</div>
+<div class="flex flex-col justify-between">
+<div>
+<span class="font-label-tag text-[10px] uppercase tracking-wider text-secondary" id="modal-condition">Mint Condition</span>
+<h3 class="font-headline-md text-headline-md text-on-surface mt-space-2xs" id="modal-title">Vintage Handspun Kurta</h3>
+<p class="font-label-code text-headline-md font-bold text-primary mt-space-xs" id="modal-price">₹1,450</p>
+<div class="mt-space-md space-y-space-xs text-xs font-label-code">
+<p class="text-on-surface-variant"><span class="text-on-surface font-bold">Fabric:</span> <span id="modal-fabric" class="">100% Desi Khadi Cotton</span></p>
+<p class="text-on-surface-variant"><span class="text-on-surface font-bold">Era:</span> <span id="modal-era" class="">circa 1984</span></p>
+<p class="text-on-surface-variant"><span class="text-on-surface font-bold">Measurements:</span> <span id="modal-measurements" class="">Chest: 42" | Length: 29"</span></p>
+<p class="text-on-surface-variant"><span class="text-on-surface font-bold">Stitch State:</span> <span id="modal-mending" class="">Reinforced horn buttons</span></p>
+</div>
+</div>
+<div class="pt-space-md">
+<label class="block font-label-code text-label-code text-on-surface-variant mb-space-2xs">Select Size Fitting:</label>
+<div class="flex gap-space-2xs mb-space-md" id="modal-sizes">
+<!-- Buttons injected via JS -->
+</div>
+<button class="w-full bg-primary text-on-primary py-space-sm rounded-DEFAULT font-title-sm text-title-sm hover:bg-on-primary-fixed-variant transition-colors flex items-center justify-center gap-space-xs" id="modal-add-btn" type="button">
+<span class="material-symbols-outlined text-[18px]">shopping_bag</span>
+<span class="">Add Artifact to Bag</span>
+</button>
+</div>
+</div>
+</div>
+<div class="p-space-md bg-surface-container-low rounded-lg">
+<p class="font-title-sm text-title-sm text-on-surface mb-space-2xs">Archivist's Restoration Ledger</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed" id="modal-notes">
+            Rescued from a traditional dyer's home in Kalyan West. Laundered twice using organic soapnut decoction. Fabric retains deep textural slubs. Ready for prolonged wear.
+          </p>
+</div>
+</div>
+</div>
+</div>
+<!-- SLIDE-OUT IN-MEMORY SHOPPING BAG DRAWER -->
+<div class="fixed inset-0 z-50 bg-inverse-surface/60 backdrop-blur-sm transition-opacity duration-300 opacity-0 hidden" id="cart-drawer-overlay" onclick="toggleCartDrawer(false)"></div>
+<aside class="fixed top-0 right-0 h-full w-full max-w-md bg-surface z-50 shadow-2xl transition-transform duration-300 flex flex-col translate-x-full" id="cart-drawer">
+<!-- Drawer Header -->
+<div class="p-space-md bg-surface-container flex items-center justify-between border-b border-dashed border-outline-variant/60">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[22px]">shopping_bag</span>
+<h3 class="font-title-sm text-title-sm text-on-surface">Your Selected Garments</h3>
+<span class="font-label-code text-label-code bg-primary text-on-primary px-space-xs rounded-full" id="cart-count-pill">0</span>
+</div>
+<button aria-label="Close Cart" class="p-space-2xs text-on-surface-variant hover:text-primary transition-colors" onclick="toggleCartDrawer(false)" type="button">
+<span class="material-symbols-outlined text-[24px]">close</span>
+</button>
+</div>
+<!-- Free Shipping Progress Bar -->
+<div class="px-space-md py-space-xs bg-surface-container-low border-b border-outline-variant/40">
+<div class="flex items-center justify-between text-xs font-label-code mb-1">
+<span class="text-on-surface-variant" id="shipping-text">Add ₹2,000 for Complimentary Indian Shipping</span>
+<span class="font-bold text-primary" id="shipping-percent">0%</span>
+</div>
+<div class="w-full h-1.5 bg-surface-container-highest rounded-full overflow-hidden">
+<div class="h-full bg-primary transition-all duration-300" id="shipping-progress-bar" style="width: 0%;"></div>
+</div>
+</div>
+<!-- Drawer Items List -->
+<div class="flex-1 overflow-y-auto p-space-md space-y-space-md" id="cart-items-container">
+<!-- Items dynamically injected -->
+</div>
+<!-- Drawer Footer / Checkout -->
+<div class="p-space-md bg-surface-container border-t border-dashed border-outline-variant/60 space-y-space-sm">
+<div class="flex flex-col gap-1 text-xs font-label-code">
+<div class="flex justify-between text-on-surface-variant">
+<span class="">Subtotal</span>
+<span class="font-bold text-on-surface" id="cart-subtotal">₹0</span>
+</div>
+<div class="flex justify-between text-on-surface-variant">
+<span class="">GST (5% Handloom rate)</span>
+<span id="cart-tax" class="">₹0</span>
+</div>
+<div class="flex justify-between text-on-surface-variant">
+<span class="">Shipping (Kalyan to All India)</span>
+<span class="text-secondary font-bold" id="cart-shipping-fee">Calculated</span>
+</div>
+<div class="flex justify-between text-on-surface text-base font-bold pt-space-xs border-t border-outline-variant/50">
+<span class="">Total Order Value</span>
+<span class="text-primary font-label-code" id="cart-grand-total">₹0</span>
+</div>
+</div>
+<!-- Order Note Input -->
+<div>
+<label class="block font-label-code text-[11px] text-tertiary mb-1" for="cart-order-note">Special Alteration / Packaging Note:</label>
+<input class="w-full bg-surface px-space-sm py-1 font-body-sm text-on-surface rounded-DEFAULT border-b border-outline focus:outline-none focus:border-primary text-xs" id="cart-order-note" placeholder="e.g. Please hem sleeves by 1 inch..." type="text">
+</div>
+<!-- Checkout Button -->
+<button class="w-full bg-primary text-on-primary py-space-sm rounded-DEFAULT font-title-sm text-title-sm hover:bg-on-primary-fixed-variant transition-all flex items-center justify-center gap-space-xs shadow-md" id="cart-checkout-btn" onclick="triggerCheckout()" type="button">
+<span class="">Proceed to Secure Order</span>
+<span class="material-symbols-outlined text-[18px]">lock</span>
+</button>
+<p class="font-label-code text-[10px] text-center text-tertiary">Safe Packaging in Recycled Khadi Bags • 7-Day Fitting Exchange</p>
+</div>
+</aside>
+<!-- JOURNAL ARTICLE MODAL -->
+<div class="fixed inset-0 z-50 bg-inverse-surface/60 backdrop-blur-sm hidden items-center justify-center p-space-sm sm:p-space-md" id="journal-modal">
+<div class="bg-surface max-w-3xl w-full rounded-xl overflow-hidden shadow-2xl flex flex-col max-h-[85vh]">
+<div class="p-space-md bg-surface-container flex items-center justify-between border-b border-outline-variant/60">
+<span class="font-label-code text-label-code text-primary bg-primary-fixed/50 px-space-xs py-space-2xs rounded-DEFAULT" id="journal-modal-tag">Dispatch</span>
+<button aria-label="Close Article" class="p-space-2xs hover:text-primary transition-colors" onclick="closeJournalModal()" type="button">
+<span class="material-symbols-outlined text-[24px]">close</span>
+</button>
+</div>
+<div class="p-space-xl overflow-y-auto space-y-space-md">
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface" id="journal-modal-title">Title</h2>
+<div class="flex items-center gap-space-sm font-label-code text-label-code text-tertiary">
+<span id="journal-modal-date" class="">Kalyan Archive</span>
+<span class="">•</span>
+<span id="journal-modal-author" class="">Studio Ledger</span>
+</div>
+<div class="font-body-lg text-body-lg text-on-surface leading-relaxed space-y-space-md" id="journal-modal-content">
+<!-- Article text injected -->
+</div>
+</div>
+</div>
+</div>
+<!-- CHECKOUT CONFIRMATION TOAST / DIALOG -->
+<div class="fixed inset-0 z-50 bg-inverse-surface/70 backdrop-blur-md hidden items-center justify-center p-space-md" id="checkout-dialog">
+<div class="bg-surface max-w-md w-full p-space-xl rounded-xl shadow-2xl text-center flex flex-col items-center">
+<div class="w-16 h-16 rounded-full bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed mb-space-md">
+<span class="material-symbols-outlined text-[36px]">verified</span>
+</div>
+<span class="font-label-tag text-label-tag uppercase tracking-wider text-secondary">Archive Order Reserved</span>
+<h3 class="font-headline-md text-headline-md text-on-surface mt-space-2xs">Artifacts Claimed</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+        Your selected garments are marked "Reserved" in our Kalyan studio racks. Our team will verify fabric stability and package them in unbleached cotton parcels.
+      </p>
+<div class="w-full my-space-md p-space-sm bg-surface-container rounded-DEFAULT font-label-code text-xs text-left space-y-1">
+<p class=""><span class="text-tertiary">Order Reference:</span> <strong id="checkout-ref-code">#TG-9041</strong></p>
+<p class=""><span class="text-tertiary">Dispatch Facility:</span> Studio 04, Kalyan West</p>
+<p class=""><span class="text-tertiary">Estimated Delivery:</span> 3-5 Working Days</p>
+</div>
+<button class="w-full bg-primary text-on-primary py-space-sm rounded-DEFAULT font-title-sm text-title-sm hover:bg-on-primary-fixed-variant transition-colors" onclick="closeCheckoutDialog()" type="button">
+        Return to Gully Archive
+      </button>
+</div>
+</div>
+<!-- TOAST NOTIFICATION FOR USER ACTIONS -->
+<div class="fixed bottom-6 right-6 z-50 bg-inverse-surface text-inverse-on-surface px-space-md py-space-sm rounded-lg shadow-xl flex items-center gap-space-xs translate-y-24 opacity-0 transition-all duration-300 pointer-events-none" id="toast">
+<span class="material-symbols-outlined text-secondary-fixed text-[20px]" id="toast-icon">check_circle</span>
+<span class="font-body-sm text-body-sm" id="toast-msg">Item added to your archive bag</span>
+</div>
+</div>
+<!-- NATIVE INTERACTIVE JAVASCRIPT ENGINE -->
+<script>
+  // CLIENT STATE
+  const catalogData = [
+    {
+      id: 1,
+      code: "TG-04-01",
+      title: "Indigo Khadi Bandi Jacket",
+      category: "workwear",
+      price: 1850,
+      era: "1978",
+      origin: "Kalyan Rail Bazaar",
+      fabric: "Handspun Khadi Cotton, Raw Coconut Shell Buttons",
+      condition: "Artisanal Mended",
+      conditionClass: "text-primary",
+      sizes: ["38", "40", "42"],
+      chest: "40 inches",
+      length: "27.5 inches",
+      mending: "Reinforced armholes, hand-stitched hem",
+      notes: "Salvaged from an artisan household near the Kalyan-Karjat line. Dyed four times in plant indigo with subtle natural marbling.",
+      image: "placeholder",
+      imageAlt: "Authentic deep blue handspun indigo cotton Nehru waistcoat jacket laid flat on unbleached linen with brass buttons and hand-stitched hems"
+    },
+    {
+      id: 2,
+      code: "TG-04-02",
+      title: "Raw Silk Angarkha Kurta",
+      category: "silk",
+      price: 2450,
+      era: "1982",
+      origin: "Ahmedabad Mills",
+      fabric: "Unbleached Matka Raw Silk with Zari Slubs",
+      condition: "Pristine Vintage",
+      conditionClass: "text-secondary",
+      sizes: ["M", "L"],
+      chest: "42 inches",
+      length: "38 inches",
+      mending: "Original hand-twisted fabric ties intact",
+      notes: "Deadstock condition found preserved in an old cedar chest. Pure textured silk with natural slubs and muted gold thread seams.",
+      image: "placeholder",
+      imageAlt: "Cream colored raw wild silk traditional Indian kurta with crossover neckline and tie closures shown on neutral parchment background"
+    },
+    {
+      id: 3,
+      code: "TG-04-03",
+      title: "Kantha Stitched Railway Chore Coat",
+      category: "workwear",
+      price: 2900,
+      era: "1972",
+      origin: "Found in Fort, Mumbai",
+      fabric: "Triple-layer Reclaimed Heavy Cotton Drill",
+      condition: "Hand-mended Patina",
+      conditionClass: "text-primary",
+      sizes: ["40", "42", "44"],
+      chest: "43.5 inches",
+      length: "29 inches",
+      mending: "Extensive sashiko-style kantha stitch lines across shoulders",
+      notes: "Originally worn by an electrical linesman. Reinforced by hand with contrasting terracotta thread. Structurally indestructible.",
+      image: "placeholder",
+      imageAlt: "Faded olive and charcoal vintage utilitarian chore jacket with visible running kantha hand repairs and vintage steel buttons"
+    },
+    {
+      id: 4,
+      code: "TG-04-04",
+      title: "Dabu Block-Print Field Kurta",
+      category: "khadi",
+      price: 1350,
+      era: "1989",
+      origin: "Kalyan Atelier Restored",
+      fabric: "Handloom Cambric Cotton, Mud-resist Vegetable Indigo",
+      condition: "Sun-Fade Patina",
+      conditionClass: "text-on-surface-variant",
+      sizes: ["S", "M", "L"],
+      chest: "39 inches",
+      length: "35 inches",
+      mending: "Replaced collar band with vintage undyed muslin",
+      notes: "Rescued from an artisan family trunk. Traditional geometric resist print that has softened to a dreamy, wearable sea-ink tone.",
+      image: "placeholder",
+      imageAlt: "Vintage Indian mud-resist block print kurta in aged faded navy blue and ivory cotton with mandarin collar on wooden hanger"
+    },
+    {
+      id: 5,
+      code: "TG-04-05",
+      title: "Handmade Saddle Leather Satchel",
+      category: "leather",
+      price: 3200,
+      era: "1980",
+      origin: "Dharavi Guilds",
+      fabric: "Vegetable-Tanned Full-Grain Leather, Solid Brass",
+      condition: "Restored Brass Hardware",
+      conditionClass: "text-secondary",
+      sizes: ["One Size"],
+      chest: "14 x 10 inches",
+      length: "Strap 48 inches",
+      mending: "Conditioned with natural beeswax, new copper rivets",
+      notes: "A heavy-duty courier satchel with 44 years of gorgeous leather patina. Fits a 13-inch laptop and daily sketchbooks.",
+      image: "placeholder",
+      imageAlt: "Vintage distressed brown cognac leather messenger bag with tarnished brass buckles resting on a rustic wooden bench"
+    },
+    {
+      id: 6,
+      code: "TG-04-06",
+      title: "Chanderi Gold Motif Tissue Dupatta",
+      category: "silk",
+      price: 1650,
+      era: "1975",
+      origin: "Madhya Pradesh Weave",
+      fabric: "Pure Silk-Cotton Chanderi with Hand-Zari Buttis",
+      condition: "Pristine Vintage",
+      conditionClass: "text-secondary",
+      sizes: ["One Size"],
+      chest: "2.4 Metres",
+      length: "36 inches wide",
+      mending: "Original hand-rolled selvedge",
+      notes: "Gossamer-light drape with hand-woven coin buttis. Zero snagging; pristine gold thread tone aged to a dignified antique brass.",
+      image: "placeholder",
+      imageAlt: "Delicate sheer vintage Chanderi silk scarf in antique golden ochre and beige tones with hand-loomed metallic zari borders"
+    },
+    {
+      id: 7,
+      code: "TG-04-07",
+      title: "Red Mud-Washed Khadi Popover",
+      category: "khadi",
+      price: 1450,
+      era: "1986",
+      origin: "Kalyan Rambaug Sourced",
+      fabric: "Coarse 120-GSM Hand-spun Maharashtra Khadi",
+      condition: "Distressed Khadi",
+      conditionClass: "text-primary",
+      sizes: ["M", "L"],
+      chest: "41 inches",
+      length: "28.5 inches",
+      mending: "Patched side-slits with vintage handloom tape",
+      notes: "Washed in local iron-rich red soil decoction to create an unrepeatable terracotta hue. Loose, breathable, and deeply tactile.",
+      image: "placeholder",
+      imageAlt: "Rust terracotta red handspun khadi linen tunic shirt with natural wooden buttons lying on aged wooden surface"
+    },
+    {
+      id: 8,
+      code: "TG-04-08",
+      title: "Ajrakh Geometric Boxy Shirt",
+      category: "khadi",
+      price: 1750,
+      era: "1991",
+      origin: "Kutch via Kalyan Trunk",
+      fabric: "Natural Madder & Harda Dyed Handloom Cotton",
+      condition: "Mint Vintage",
+      conditionClass: "text-secondary",
+      sizes: ["S", "M", "L", "XL"],
+      chest: "44 inches (Relaxed)",
+      length: "27 inches",
+      mending: "Original shell buttons, zero repairs needed",
+      notes: "14-stage natural block print using riverbed water and crushed pomegranate skins. Softened by three decades of gentle laundry.",
+      image: "placeholder",
+      imageAlt: "Boxy short-sleeved vintage shirt in rich madder red and midnight black Ajrakh star print on artisan linen background"
+    }
+  ];
+
+  const journalArticles = [
+    {
+      title: "Khadi That Remembers: Tracing 1970s Mills in Maharashtra",
+      tag: "Dispatch 012",
+      date: "October 14, 2024",
+      author: "Curated by Aaditya S., Kalyan Atelier",
+      body: `
+        <p>In the quiet alleys surrounding the older railway yards of Kalyan, there are still small Godowns where wooden crates from the 1970s sit undisturbed under corrugated tin roofs. Before petrochemical synthetic blends like polyester dominated the garment trade, Maharashtra's cooperative khadi societies wove cloth that understood the Indian climate intimately.</p>
+        <p>When you hold an authenticated 1970s khadi garment to the sunlight, the weave is not mathematically uniform. The yarn thickness fluctuates with the rhythm of the spinner's foot pedal. Some sections have slightly higher tension; others carry tiny flecks of uncombed cotton seeds. In modern fast-retail, these are marked as defects. In our archive, these are the signature marks of human existence.</p>
+        <p>In this dispatch, we share how we identify the stamp marks on Maharashtra khadi selvedges, authenticate non-mercerized yarn, and stabilize historic fiber for another fifty years of active daily rotation.</p>
+      `
+    },
+    {
+      title: "How to Wash & Care for Vintage Natural Indigo",
+      tag: "Dispatch 011",
+      date: "September 28, 2024",
+      author: "Curated by Meera V., Lead Conservator",
+      body: `
+        <p>Natural indigo is not a passive pigment; it is a fermented plant compound that breathes, fades gracefully, and bonds with cotton on a molecular tier. Too many collectors ruin vintage indigo pieces in harsh machine cycles with caustic enzymatic detergents.</p>
+        <p><strong>The Kalyan 3-Step Cold Wash:</strong></p>
+        <ol class="list-decimal pl-space-md space-y-2">
+          <li><strong>Cold Water &amp; Reetha Soapnuts:</strong> Soak whole soapnuts in warm water for two hours to release natural saponins. Strain into a basin of cold tap water. Never use warm water on vintage indigo.</li>
+          <li><strong>Submerge Without Wringing:</strong> Gently press the garment under water for five minutes. Do not twist or wring the yarn, which tears the delicate vintage warp fibers.</li>
+          <li><strong>Breeze-Drying in Full Shade:</strong> Direct afternoon sunlight bleaches natural indigo into an unnatural yellowish-green. Always hang in a breezy covered balcony or courtyard away from direct UV rays.</li>
+        </ol>
+      `
+    },
+    {
+      title: "Notes From Kalyan: The 5 AM Sunday Fabric Haul",
+      tag: "Dispatch 010",
+      date: "August 19, 2024",
+      author: "Curated by Aaditya S., Kalyan Atelier",
+      body: `
+        <p>At 4:45 AM on Sunday mornings, while Kalyan junction is still bathed in cool sodium-vapor orange light, local ragpickers, antique dealers, and estate clearing hands meet near the old railway culvert. Trunks from demolished wadas in Dombivli and Bhiwandi arrive tied with thick jute rope.</p>
+        <p>Most people are hunting for brass lanterns or old teak mirrors. We look solely for textiles: bundle bags wrapped in faded ikat, old cotton quilts with hand-stitched borders, and forgotten workwear jackets hanging behind workshop doors.</p>
+        <p>Last Sunday yielded our most prized catch of the season: a pristine 1972 railway linesman coat with every copper snap fastener and heavy twill pocket completely intact. Here is what it feels like to touch history before the rest of the city wakes up.</p>
+      `
+    }
+  ];
+
+  // APP STATE
+  let currentCategory = 'all';
+  let searchQuery = '';
+  let currentSort = 'featured';
+  let cart = [];
+  let wishlist = new Set();
+  let selectedModalItem = null;
+  let selectedModalSize = null;
+
+  // DOM REFS
+  const productGrid = document.getElementById('product-grid');
+  const emptyState = document.getElementById('empty-state');
+  const activeCount = document.getElementById('active-count');
+  const cartDrawer = document.getElementById('cart-drawer');
+  const cartDrawerOverlay = document.getElementById('cart-drawer-overlay');
+  const cartItemsContainer = document.getElementById('cart-items-container');
+  const cartCountPill = document.getElementById('cart-count-pill');
+  const cartSubtotal = document.getElementById('cart-subtotal');
+  const cartTax = document.getElementById('cart-tax');
+  const cartShippingFee = document.getElementById('cart-shipping-fee');
+  const cartGrandTotal = document.getElementById('cart-grand-total');
+  const shippingProgressBar = document.getElementById('shipping-progress-bar');
+  const shippingText = document.getElementById('shipping-text');
+  const shippingPercent = document.getElementById('shipping-percent');
+  const toast = document.getElementById('toast');
+  const toastMsg = document.getElementById('toast-msg');
+
+  // INITIALIZE APP
+  document.addEventListener('DOMContentLoaded', () => {
+    renderCatalog();
+    setupHeaderCartSync();
+  });
+
+  function setupHeaderCartSync() {
+    // Sync with the app shell's header cart button
+    const shellCartBtn = document.querySelector('button[aria-label="Open Cart Drawer"]');
+    if (shellCartBtn) {
+      shellCartBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        toggleCartDrawer(true);
+      });
+    }
+
+    // Sync shell search button with catalog search
+    const shellSearchBtn = document.querySelector('button[aria-label="Search Archive"]');
+    if (shellSearchBtn) {
+      shellSearchBtn.addEventListener('click', () => {
+        document.getElementById('catalog-search').focus();
+        document.getElementById('catalog-section').scrollIntoView({ behavior: 'smooth' });
+      });
+    }
+  }
+
+  // FILTER & RENDER ENGINE
+  function filterAndSortProducts() {
+    return catalogData
+      .filter(item => {
+        const matchesCat = (currentCategory === 'all') || (item.category === currentCategory);
+        const q = searchQuery.toLowerCase().trim();
+        const matchesQuery = !q || (
+          item.title.toLowerCase().includes(q) ||
+          item.fabric.toLowerCase().includes(q) ||
+          item.origin.toLowerCase().includes(q) ||
+          item.condition.toLowerCase().includes(q) ||
+          item.code.toLowerCase().includes(q)
+        );
+        return matchesCat && matchesQuery;
+      })
+      .sort((a, b) => {
+        if (currentSort === 'price-asc') return a.price - b.price;
+        if (currentSort === 'price-desc') return b.price - a.price;
+        if (currentSort === 'era-oldest') return parseInt(a.era) - parseInt(b.era);
+        return a.id - b.id; // featured / default
+      });
+  }
+
+  function renderCatalog() {
+    const items = filterAndSortProducts();
+    productGrid.innerHTML = '';
+
+    if (items.length === 0) {
+      productGrid.classList.add('hidden');
+      emptyState.classList.remove('hidden');
+      activeCount.textContent = '0 Pieces Found';
+      return;
+    }
+
+    productGrid.classList.remove('hidden');
+    emptyState.classList.add('hidden');
+    activeCount.textContent = `${items.length} Pieces Displayed`;
+
+    items.forEach(item => {
+      const isWishlisted = wishlist.has(item.id);
+      const card = document.createElement('div');
+      card.className = 'group bg-surface-container rounded-xl p-space-sm flex flex-col justify-between shadow-sm hover:shadow-md transition-all duration-300';
+      
+      card.innerHTML = `
+        <div>
+          <!-- Image Wrapper with Badges -->
+          <div class="relative aspect-[3/4] w-full rounded-lg overflow-hidden bg-surface-container-high mb-space-sm">
+            <img src="${item.image}" data-alt="${item.imageAlt}" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500">
+            
+            <!-- Catalog Code Tag -->
+            <div class="absolute top-2 left-2 z-10">
+              <span class="font-label-code text-[10px] font-bold bg-secondary-fixed/90 text-on-secondary-fixed px-space-xs py-0.5 rounded-DEFAULT shadow-sm">
+                [ ${item.code} ]
+              </span>
+            </div>
+
+            <!-- Wishlist Heart Button -->
+            <button 
+              type="button" 
+              onclick="toggleWishlist(${item.id}, event)" 
+              aria-label="Save ${item.title}" 
+              class="absolute top-2 right-2 z-10 w-8 h-8 rounded-full bg-surface/90 backdrop-blur-sm flex items-center justify-center text-on-surface hover:text-primary transition-colors shadow-sm"
+            >
+              <span class="material-symbols-outlined text-[18px]" style="${isWishlisted ? "font-variation-settings: 'FILL' 1; color: #8a371f;" : ""}">favorite</span>
+            </button>
+
+            <!-- Condition Chip -->
+            <div class="absolute bottom-2 left-2 z-10">
+              <span class="font-label-tag text-[9px] uppercase tracking-wider bg-surface/95 text-on-surface px-space-xs py-0.5 rounded-DEFAULT shadow-sm">
+                ${item.condition}
+              </span>
+            </div>
+
+            <!-- Quick View Hover Overlay -->
+            <button 
+              type="button" 
+              onclick="openInspectionModal(${item.id})" 
+              class="absolute inset-x-2 bottom-2 py-space-xs bg-inverse-surface/85 backdrop-blur-sm text-inverse-on-surface font-label-code text-[11px] uppercase tracking-wider rounded-DEFAULT opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-1"
+            >
+              <span class="material-symbols-outlined text-[16px]">visibility</span>
+              <span>Inspect Garment</span>
+            </button>
+          </div>
+
+          <!-- Garment Metadata -->
+          <div class="space-y-1">
+            <div class="flex items-center justify-between text-[11px] font-label-code text-on-surface-variant">
+              <span>${item.origin}</span>
+              <span class="text-tertiary">circa ${item.era}</span>
+            </div>
+            <h3 class="font-headline-md text-[19px] leading-snug text-on-surface line-clamp-1 hover:text-primary cursor-pointer transition-colors" onclick="openInspectionModal(${item.id})">
+              ${item.title}
+            </h3>
+            <p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1">${item.fabric}</p>
+          </div>
+        </div>
+
+        <!-- Price & Quick Add Footer -->
+        <div class="pt-space-sm mt-space-xs border-t border-dashed border-outline-variant/60 flex items-center justify-between">
+          <div>
+            <span class="font-label-code text-[16px] font-bold text-primary">₹${item.price.toLocaleString('en-IN')}</span>
+            <span class="block font-label-code text-[10px] text-tertiary">${item.chest}</span>
+          </div>
+          <button 
+            type="button" 
+            onclick="quickAddToCart(${item.id})" 
+            class="px-space-sm py-space-2xs bg-primary text-on-primary font-title-sm text-body-sm rounded-DEFAULT hover:bg-on-primary-fixed-variant transition-colors flex items-center gap-1 shadow-sm"
+          >
+            <span class="material-symbols-outlined text-[15px]">add</span>
+            <span>Add</span>
+          </button>
+        </div>
+      `;
+
+      productGrid.appendChild(card);
+    });
+  }
+
+  // FILTER ACTIONS
+  function setCategory(cat) {
+    currentCategory = cat;
+    document.querySelectorAll('.cat-pill').forEach(pill => {
+      if (pill.getAttribute('data-cat') === cat) {
+        pill.className = 'cat-pill active-pill px-space-sm py-space-2xs rounded-full font-label-code text-label-code transition-all bg-on-surface text-surface';
+      } else {
+        pill.className = 'cat-pill px-space-sm py-space-2xs rounded-full font-label-code text-label-code transition-all bg-surface-container-high text-on-surface hover:bg-surface-container-highest';
+      }
+    });
+    renderCatalog();
+  }
+
+  function handleSearch(val) {
+    searchQuery = val;
+    renderCatalog();
+  }
+
+  function handleSort(val) {
+    currentSort = val;
+    renderCatalog();
+  }
+
+  function resetFilters() {
+    searchQuery = '';
+    currentCategory = 'all';
+    currentSort = 'featured';
+    document.getElementById('catalog-search').value = '';
+    document.getElementById('catalog-sort').value = 'featured';
+    setCategory('all');
+  }
+
+  // WISHLIST INTERACTION
+  function toggleWishlist(id, e) {
+    if (e) e.stopPropagation();
+    if (wishlist.has(id)) {
+      wishlist.delete(id);
+      showToast("Removed from your saved archive");
+    } else {
+      wishlist.add(id);
+      showToast("Saved to your personal archive");
+    }
+    renderCatalog();
+    updateShellWishlistBadge();
+  }
+
+  function updateShellWishlistBadge() {
+    const wishlistBadge = document.querySelector('a[data-path="wishlist"] span.rounded-full');
+    if (wishlistBadge) {
+      wishlistBadge.textContent = wishlist.size;
+    }
+  }
+
+  // INSPECTION MODAL
+  function openInspectionModal(id) {
+    const item = catalogData.find(p => p.id === id);
+    if (!item) return;
+    selectedModalItem = item;
+    selectedModalSize = item.sizes[0];
+
+    document.getElementById('modal-cat-badge').textContent = `[ ${item.code} ]`;
+    document.getElementById('modal-provenance').textContent = `${item.origin} • c. ${item.era}`;
+    document.getElementById('modal-title').textContent = item.title;
+    document.getElementById('modal-price').textContent = `₹${item.price.toLocaleString('en-IN')}`;
+    document.getElementById('modal-fabric').textContent = item.fabric;
+    document.getElementById('modal-era').textContent = `Documented ${item.era}`;
+    document.getElementById('modal-measurements').textContent = `Chest: ${item.chest} | Length: ${item.length}`;
+    document.getElementById('modal-mending').textContent = item.mending;
+    document.getElementById('modal-condition').textContent = item.condition;
+    document.getElementById('modal-notes').textContent = item.notes;
+
+    const modalImg = document.getElementById('modal-image');
+    modalImg.src = item.image;
+    modalImg.setAttribute('data-alt', item.imageAlt);
+
+    // Render sizes
+    const sizesContainer = document.getElementById('modal-sizes');
+    sizesContainer.innerHTML = '';
+    item.sizes.forEach((size, idx) => {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = `px-space-sm py-1 font-label-code text-xs rounded-DEFAULT border ${idx === 0 ? 'bg-on-surface text-surface border-on-surface' : 'bg-surface text-on-surface border-outline-variant hover:border-on-surface'}`;
+      btn.textContent = size;
+      btn.onclick = () => {
+        selectedModalSize = size;
+        sizesContainer.querySelectorAll('button').forEach(b => {
+          b.className = 'px-space-sm py-1 font-label-code text-xs rounded-DEFAULT border bg-surface text-on-surface border-outline-variant hover:border-on-surface';
+        });
+        btn.className = 'px-space-sm py-1 font-label-code text-xs rounded-DEFAULT border bg-on-surface text-surface border-on-surface';
+      };
+      sizesContainer.appendChild(btn);
+    });
+
+    // Add button handler
+    const addBtn = document.getElementById('modal-add-btn');
+    addBtn.onclick = () => {
+      addToCart(item, selectedModalSize);
+      closeInspectionModal();
+    };
+
+    const modal = document.getElementById('inspection-modal');
+    modal.classList.remove('hidden');
+    modal.classList.add('flex');
+  }
+
+  function closeInspectionModal() {
+    const modal = document.getElementById('inspection-modal');
+    modal.classList.add('hidden');
+    modal.classList.remove('flex');
+  }
+
+  // CART DRAWER ENGINE
+  function toggleCartDrawer(open) {
+    if (open) {
+      cartDrawerOverlay.classList.remove('hidden');
+      setTimeout(() => {
+        cartDrawerOverlay.classList.remove('opacity-0');
+        cartDrawer.classList.remove('translate-x-full');
+      }, 10);
+    } else {
+      cartDrawerOverlay.classList.add('opacity-0');
+      cartDrawer.classList.add('translate-x-full');
+      setTimeout(() => {
+        cartDrawerOverlay.classList.add('hidden');
+      }, 300);
+    }
+  }
+
+  function quickAddToCart(id) {
+    const item = catalogData.find(p => p.id === id);
+    if (item) {
+      addToCart(item, item.sizes[0]);
+    }
+  }
+
+  function addToCart(item, size) {
+    const existingIndex = cart.findIndex(c => c.id === item.id && c.size === size);
+    if (existingIndex > -1) {
+      cart[existingIndex].quantity += 1;
+    } else {
+      cart.push({
+        id: item.id,
+        code: item.code,
+        title: item.title,
+        price: item.price,
+        size: size,
+        image: item.image,
+        imageAlt: item.imageAlt,
+        fabric: item.fabric,
+        quantity: 1
+      });
+    }
+
+    renderCart();
+    toggleCartDrawer(true);
+    showToast(`"${item.title}" added to your archive bag`);
+  }
+
+  function changeCartQty(id, size, delta) {
+    const idx = cart.findIndex(c => c.id === id && c.size === size);
+    if (idx > -1) {
+      cart[idx].quantity += delta;
+      if (cart[idx].quantity <= 0) {
+        cart.splice(idx, 1);
+        showToast("Item removed from bag");
+      }
+      renderCart();
+    }
+  }
+
+  function removeCartItem(id, size) {
+    cart = cart.filter(c => !(c.id === id && c.size === size));
+    renderCart();
+    showToast("Item removed from archive bag");
+  }
+
+  function renderCart() {
+    cartItemsContainer.innerHTML = '';
+    const totalItems = cart.reduce((acc, item) => acc + item.quantity, 0);
+    cartCountPill.textContent = totalItems;
+
+    // Sync App Shell Header Badge
+    const shellCartBadge = document.querySelector('button[aria-label="Open Cart Drawer"] span.font-bold');
+    if (shellCartBadge) {
+      shellCartBadge.textContent = `[ ${totalItems.toString().padStart(2, '0')} ]`;
+    }
+
+    if (cart.length === 0) {
+      cartItemsContainer.innerHTML = `
+        <div class="h-full py-space-3xl flex flex-col items-center justify-center text-center">
+          <span class="material-symbols-outlined text-[48px] text-outline">shopping_bag</span>
+          <p class="font-headline-md text-headline-md text-on-surface mt-space-sm">Your bag is empty</p>
+          <p class="font-body-sm text-body-sm text-on-surface-variant max-w-xs mt-space-xs">Artifacts in the Kalyan gully are unique singles. Select a specimen before another collector claims it.</p>
+          <button type="button" onclick="toggleCartDrawer(false)" class="mt-space-md px-space-md py-space-xs bg-surface-container font-label-code text-label-code uppercase rounded-DEFAULT text-on-surface hover:bg-surface-container-high">
+            Browse Catalog
+          </button>
+        </div>
+      `;
+      cartSubtotal.textContent = '₹0';
+      cartTax.textContent = '₹0';
+      cartShippingFee.textContent = '₹0';
+      cartGrandTotal.textContent = '₹0';
+      shippingProgressBar.style.width = '0%';
+      shippingPercent.textContent = '0%';
+      shippingText.textContent = 'Add ₹2,000 for Complimentary Indian Shipping';
+      document.getElementById('cart-checkout-btn').disabled = true;
+      document.getElementById('cart-checkout-btn').classList.add('opacity-50', 'cursor-not-allowed');
+      return;
+    }
+
+    document.getElementById('cart-checkout-btn').disabled = false;
+    document.getElementById('cart-checkout-btn').classList.remove('opacity-50', 'cursor-not-allowed');
+
+    let subtotal = 0;
+
+    cart.forEach(item => {
+      const itemSubtotal = item.price * item.quantity;
+      subtotal += itemSubtotal;
+
+      const itemCard = document.createElement('div');
+      itemCard.className = 'flex gap-space-sm p-space-sm bg-surface-container rounded-lg relative';
+      itemCard.innerHTML = `
+        <div class="w-16 h-20 bg-surface-container-high rounded overflow-hidden shrink-0">
+          <img src="${item.image}" data-alt="${item.imageAlt}" class="w-full h-full object-cover">
+        </div>
+        <div class="flex-1 min-w-0 flex flex-col justify-between">
+          <div>
+            <div class="flex items-start justify-between gap-1">
+              <h4 class="font-title-sm text-body-md text-on-surface truncate">${item.title}</h4>
+              <button type="button" onclick="removeCartItem(${item.id}, '${item.size}')" class="text-outline hover:text-error transition-colors">
+                <span class="material-symbols-outlined text-[18px]">delete</span>
+              </button>
+            </div>
+            <p class="font-label-code text-[11px] text-on-surface-variant">Size: <strong>${item.size}</strong> &bull; [${item.code}]</p>
+          </div>
+          <div class="flex items-center justify-between pt-1">
+            <span class="font-label-code text-sm font-bold text-primary">₹${(itemSubtotal).toLocaleString('en-IN')}</span>
+            <div class="flex items-center gap-2 bg-surface px-space-xs py-0.5 rounded-DEFAULT">
+              <button type="button" onclick="changeCartQty(${item.id}, '${item.size}', -1)" class="text-on-surface-variant hover:text-primary font-bold text-xs px-1">&minus;</button>
+              <span class="font-label-code text-xs font-bold">${item.quantity}</span>
+              <button type="button" onclick="changeCartQty(${item.id}, '${item.size}', 1)" class="text-on-surface-variant hover:text-primary font-bold text-xs px-1">&plus;</button>
+            </div>
+          </div>
+        </div>
+      `;
+      cartItemsContainer.appendChild(itemCard);
+    });
+
+    const gst = Math.round(subtotal * 0.05);
+    const shipping = subtotal >= 2000 ? 0 : 150;
+    const grandTotal = subtotal + gst + shipping;
+
+    cartSubtotal.textContent = `₹${subtotal.toLocaleString('en-IN')}`;
+    cartTax.textContent = `₹${gst.toLocaleString('en-IN')}`;
+    cartShippingFee.textContent = shipping === 0 ? 'FREE' : `₹${shipping}`;
+    cartGrandTotal.textContent = `₹${grandTotal.toLocaleString('en-IN')}`;
+
+    // Shipping Progress Calculation
+    const target = 2000;
+    const progress = Math.min(100, Math.round((subtotal / target) * 100));
+    shippingProgressBar.style.width = `${progress}%`;
+    shippingPercent.textContent = `${progress}%`;
+
+    if (subtotal >= target) {
+      shippingText.textContent = '🎉 You qualify for Complimentary Expedited Shipping!';
+      shippingText.className = 'text-primary font-bold';
+    } else {
+      const remaining = target - subtotal;
+      shippingText.textContent = `Add ₹${remaining.toLocaleString('en-IN')} for Free Pan-India Delivery`;
+      shippingText.className = 'text-on-surface-variant';
+    }
+  }
+
+  // CHECKOUT SIMULATION
+  function triggerCheckout() {
+    if (cart.length === 0) return;
+    toggleCartDrawer(false);
+    
+    // Generate simulated reference code
+    const randomCode = '#TG-' + Math.floor(1000 + Math.random() * 9000);
+    document.getElementById('checkout-ref-code').textContent = randomCode;
+    
+    const dialog = document.getElementById('checkout-dialog');
+    dialog.classList.remove('hidden');
+    dialog.classList.add('flex');
+
+    // Clear cart memory after successful placement
+    cart = [];
+    renderCart();
+  }
+
+  function closeCheckoutDialog() {
+    const dialog = document.getElementById('checkout-dialog');
+    dialog.classList.add('hidden');
+    dialog.classList.remove('flex');
+  }
+
+  // JOURNAL MODAL
+  function openJournalModal(idx) {
+    const article = journalArticles[idx];
+    if (!article) return;
+    document.getElementById('journal-modal-title').textContent = article.title;
+    document.getElementById('journal-modal-tag').textContent = article.tag;
+    document.getElementById('journal-modal-date').textContent = article.date;
+    document.getElementById('journal-modal-author').textContent = article.author;
+    document.getElementById('journal-modal-content').innerHTML = article.body;
+
+    const modal = document.getElementById('journal-modal');
+    modal.classList.remove('hidden');
+    modal.classList.add('flex');
+  }
+
+  function closeJournalModal() {
+    const modal = document.getElementById('journal-modal');
+    modal.classList.add('hidden');
+    modal.classList.remove('flex');
+  }
+
+  // NEWSLETTER HANDLER
+  function handleNewsletter(e) {
+    e.preventDefault();
+    const email = document.getElementById('gazette-email').value;
+    const status = document.getElementById('newsletter-status');
+    const submitBtn = document.getElementById('gazette-submit');
+
+    submitBtn.textContent = "Securing Registry...";
+    submitBtn.disabled = true;
+
+    setTimeout(() => {
+      status.textContent = `✓ Access code dispatched to ${email}. You will receive early drop alerts every Friday.`;
+      status.classList.remove('hidden');
+      submitBtn.textContent = "Registry Verified";
+      document.getElementById('gazette-email').value = '';
+      showToast("Registered for Friday Archival Drops");
+    }, 800);
+  }
+
+  // TOAST FEEDBACK
+  let toastTimeout;
+  function showToast(message) {
+    clearTimeout(toastTimeout);
+    toastMsg.textContent = message;
+    toast.classList.remove('translate-y-24', 'opacity-0');
+    toast.classList.add('translate-y-0', 'opacity-100');
+    
+    toastTimeout = setTimeout(() => {
+      toast.classList.add('translate-y-24', 'opacity-0');
+      toast.classList.remove('translate-y-0', 'opacity-100');
+    }, 2800);
+  }
+</script></main><footer class="w-full bg-surface-container-low border-t border-outline-variant/40 mt-space-3xl"><div class="max-w-container-max mx-auto px-gutter-mobile md:px-gutter-tablet lg:px-gutter-desktop pt-space-3xl pb-space-2xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-space-2xl"><div class="lg:col-span-5 flex flex-col gap-space-md"><span class="font-label-tag text-label-tag uppercase tracking-widest text-secondary">Archival Provenance &amp; Vintage</span><p class="font-headline-lg text-headline-lg text-on-surface leading-tight">Wear the story forward.</p><p class="font-body-md text-body-md text-on-surface-variant max-w-md">Preserving Kalyan’s textile memories, rescued weaves, and slow-mended heritage garments. Every hand-numbered artifact carries decades of living history.</p><div class="pt-space-sm"><div class="inline-flex items-center gap-space-sm px-space-md py-space-xs bg-surface-container rounded-DEFAULT border border-outline-variant/50"><span class="w-2 h-2 rounded-full bg-secondary-container ring-2 ring-secondary/30"></span><span class="font-label-code text-label-code text-on-surface-variant">Studio 04, Rambaug Lane 5, Kalyan West</span></div></div></div><div class="lg:col-span-3 flex flex-col gap-space-sm"><h3 class="font-title-sm text-title-sm text-on-surface uppercase tracking-wider mb-space-xs">Catalog Index</h3><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" data-path="shop-all" href="#">Archival Garments (1960–2000)</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" data-path="the-edit" href="#">Curator's Bi-Monthly Edit</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" data-path="archive-and-drops" href="#">Upcoming Friday Drops</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" data-path="journal" href="#">Khadi &amp; Mending Ledger</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" data-path="our-kalyan-roots" href="#">The Kalyan Reclamation Project</a></div><div class="lg:col-span-4 flex flex-col gap-space-md"><h3 class="font-title-sm text-title-sm text-on-surface uppercase tracking-wider">The Ledger Gazette</h3><p class="font-body-sm text-body-sm text-on-surface-variant">Receive archival drop dispatches, textile preservation guides, and private preview access.</p><form class="flex flex-col gap-space-xs" onsubmit="event.preventDefault();"><div class="flex items-center border-b-2 border-on-surface focus-within:border-primary transition-colors"><input class="w-full bg-transparent py-space-xs font-body-md text-on-surface placeholder:text-outline focus:outline-none" placeholder="curator@archive.org" type="email"><button class="font-label-tag text-label-tag uppercase tracking-wider text-primary px-space-xs hover:text-on-primary-fixed-variant transition-colors" type="submit">Subscribe</button></div><span class="font-label-code text-[11px] text-tertiary">Strictly zero promotional noise. Bi-weekly dispatch only.</span></form></div></div><div class="mt-space-2xl pt-space-lg border-t border-dashed border-outline-variant/60 flex flex-col md:flex-row items-center justify-between gap-space-md"><p class="font-label-code text-label-code text-on-surface-variant">© 2024 Thrift Gully Archive. Hand-bound in Kalyan, Maharashtra.</p><div class="flex items-center gap-space-lg"><span class="font-label-code text-label-code text-tertiary">Artifact System v2.4</span><span class="font-label-code text-label-code text-tertiary">100% Preserved Provenance</span></div></div></div></footer>
+
+</body></html>
